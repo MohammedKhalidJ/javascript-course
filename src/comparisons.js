@@ -25,7 +25,7 @@
 // console.log(Number(null));
 // console.log(Number(undefined));
 
-// var name = 'ITP';
+var name = 'ITP';
 // let year = 2018;
 
 // if(true) {
@@ -37,6 +37,6 @@
 //     console.log(`I have performed this action at 2020 ${year}`);
 // }
 
-// name = "Intensive Training program";
-// console.log(name);
-// console.log(`I have performed this action at 2018 ${year}`);
+ name = "Intensive Training program";
+ console.log(name);
+ console.log(`I have performed this action at 2018 ${year}`);
