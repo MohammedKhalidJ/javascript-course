@@ -38,8 +38,12 @@
 // var str = "";
 // alert(Number(str));
 
-let message = `Dummy  call`;
-message = null
-console.log(Boolean());
+// let message = `Dummy  call`;
+// message = null
+// console.log(Boolean());
 
+// let str = "string";
+alert(Boolean([]));
 
+// 0, null, undefined, "", NAN - false
+// all other things - true

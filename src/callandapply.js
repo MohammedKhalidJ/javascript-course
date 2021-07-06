@@ -13,3 +13,6 @@ var helperFunc = function(Program, course) {
 
 helperFunc.call(companyDetails,"ITP", "javascript");
 helperFunc.apply(companyDetails,["ITP", "javascript"]);
+
+var bindFunc = helperFunc.bind(companyDetails);
+bindFunc("ITP", "javascript")

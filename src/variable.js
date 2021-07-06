@@ -1,11 +1,11 @@
 // "use strict"
-// var message;
+ var message;
 
-// message = "Here i can store some data";
+message = "Here i can store some data";
 
 // alert(message);
 
-// message = 20;
+message = 20;
 
 // alert(message);
 
@@ -14,7 +14,11 @@
 
 
 // alert(`I'm working in ${companyName} from ${year} in ${loc}`);
-let i = 0;
-let i = 2;
+// let i = 0;
+// let i = 2;
 
-alert(i );
+// alert(i);
+
+
+alert(typeof message)
+

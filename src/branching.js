@@ -14,24 +14,24 @@
 
 // alert(name ?? "undefined");
 
-// let num = 0;
-// for( ; num<3;  ) {
-//     console.log("dummy");
-//     num++;
-// }
-
-let num = prompt("Give any number");
-
-switch (num) {
-    case "1":
-        alert("red");
-        break;
-    case "2":
-        alert("black");
-        break;
-    case '3', '4', '5':
-        alert("navy blue");
-        break;
-    default:
-        alert("no color");
+let num = 0;
+for( ; num<3;  ) {
+    console.log(num);
+    num++;
 }
+
+// let num = prompt("Give any number");
+
+// switch (num) {
+//     case "1":
+//         alert("red");
+//         break;
+//     case "2":
+//         alert("black");
+//         break;
+//     case '3', '4', '5':
+//         alert("navy blue");
+//         break;
+//     default:
+//         alert("no color");
+// }

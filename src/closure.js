@@ -5,6 +5,7 @@ function CmpDetails() {
     let location = "Mexico";
 
     return function() {
+        let developers = 100;
         return name;
     }
 }

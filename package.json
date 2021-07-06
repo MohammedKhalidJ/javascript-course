@@ -1,0 +1,29 @@
+{
+  "name": "tracking-application",
+  "version": "1.0.0",
+  "description": "Application to track the vehicles",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MohammedKhalidJ/javascript-course.git"
+  },
+  "keywords": [
+    "track",
+    "application"
+  ],
+  "author": "khalid",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MohammedKhalidJ/javascript-course/issues"
+  },
+  "homepage": "https://github.com/MohammedKhalidJ/javascript-course#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^2.0.7",
+    "socket.io": "^4.1.2"
+  }
+}
