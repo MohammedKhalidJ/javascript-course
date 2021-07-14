@@ -1,3 +1,7 @@
 .widget .header {
     background-color: #00af41;
 }
+
+#activity-list-v2 {
+    width: 50%;
+}
