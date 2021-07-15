@@ -1,8 +1,15 @@
 .widget .header {
-        width: 50%;
+    width: 50%;
     background-color: #00af41;
 }
 
 #activity-list-v2 {
     width: 50%;
+}
+
+.widget .header h1, .widget .header h3 {
+    font-size: 24px;
+    font-weight: 600;
+    margin-top: 20px;
+    margin-bottom: 10px;
 }
