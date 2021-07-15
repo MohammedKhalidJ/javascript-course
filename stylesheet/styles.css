@@ -17,3 +17,12 @@
 .widget .container {
     padding-top: 90px;
 }
+
+#activity-list-v2 .activity {
+    background: none;
+}
+
+#activity-list-v2 .activity:hover {
+    background: #eee;
+    color: #00af41;
+}
