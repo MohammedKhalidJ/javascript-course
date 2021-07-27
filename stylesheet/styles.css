@@ -1,28 +1,32 @@
-.widget .header {
-    width: 50%;
-    background-color: #00af41;
-}
-
-#activity-list-v2 {
-    width: 50%;
-}
-
-.widget .header h1, .widget .header h3 {
-    font-size: 24px;
-    font-weight: 600;
-    margin-top: 20px;
-    margin-bottom: 10px;
-}
-
-.widget .container {
-    padding-top: 90px;
-}
-
 #activity-list-v2 .activity {
-    background: none;
+    display: inline-grid;
+    width: min-content;
 }
 
-#activity-list-v2 .activity:hover {
-    background: #eee;
-    color: #00af41;
+#activity-list-v2 .image-container {
+    height: auto;
+    width: auto;
+    border-radius: initial;
+}
+
+#activity-list-v2 .image-container img {
+    display: block;
+    margin: auto;
+}
+
+#activity-list-v2 .info-container {
+    max-width: initial;
+    text-align: center;
+}
+
+#activity-list-v2 .activity .title {
+    margin: 10px 0 10px 0;
+}
+
+#activity-list-v2 .activity .description {
+    text-align: left;
+}
+
+.ct-points-color {
+    margin: 5px 0 5px 0;
 }
