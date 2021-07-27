@@ -1,6 +1,7 @@
 #activity-list-v2 .activity {
     display: inline-grid;
     width: min-content;
+    margin: 5px;
 }
 
 #activity-list-v2 .image-container {
