@@ -11,6 +11,8 @@
 
 #activity-list-v2 .image-container img {
     display: block;
+    width: 267px;
+    height: 235px;
     margin: auto;
 }
 
