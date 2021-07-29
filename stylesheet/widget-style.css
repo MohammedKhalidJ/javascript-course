@@ -1,0 +1,142 @@
+/* Smartphones (portrait and landscape) ----------- */
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+    .activity-list-container1 {
+        text-align: center;
+        margin: 0 auto;
+    }
+}
+
+
+/* Smartphones (landscape) ----------- */
+
+@media only screen and (min-width: 321px) {
+    .activity-list-container1 {
+        text-align: center;
+        margin: 0 auto;
+    }
+}
+
+
+/* Smartphones (portrait) ----------- */
+
+@media only screen and (max-width: 320px) {
+    .activity-list-container1 {
+        text-align: center;
+        margin: 0 auto;
+    }
+}
+
+
+/* iPads (portrait and landscape) ----------- */
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+    .activity-list-container1 {
+        text-align: center;
+        margin: 0 auto;
+    }
+}
+
+
+/* iPads (landscape) ----------- */
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+    .activity-list-container1 {
+        text-align: center;
+        margin: 0 auto;
+    }
+}
+
+
+/* iPads (portrait) ----------- */
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
+    .activity-list-container1 {
+        text-align: center;
+        margin: 0 auto;
+    }
+}
+
+
+/**********
+    iPad 3
+    **********/
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 2) {
+    .activity-list-container1 {
+        text-align: center;
+        margin: 0 auto;
+    }
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
+    .activity-list-container1 {
+        text-align: center;
+        margin: 0 auto;
+    }
+}
+
+
+/* Desktops and laptops ----------- */
+
+@media only screen and (min-width: 1224px) {
+    .activity-list-container1 {
+        text-align: center;
+        margin: 0 auto;
+        width: 100%;
+    }
+}
+
+
+/* Large screens ----------- */
+
+@media only screen and (min-width: 1824px) {
+    .activity-list-container1 {
+        text-align: center;
+        margin: 0 auto;
+        width: 100%;
+    }
+}
+
+
+/* Activity List ----------- */
+
+.activity-list-container1 .activity {
+    display: inline-grid;
+    max-width: 350px;
+    min-width: 250px;
+    width: 100%;
+    overflow: hidden;
+}
+
+.activity-list-container1 .image-container {
+    height: auto;
+    width: auto;
+    border-radius: initial;
+}
+
+.activity-list-container1 .image-container img {
+    display: block;
+    margin: auto;
+    width: 267px;
+    height: 235px;
+}
+
+.activity-list-container1 .info-container {
+    max-width: initial;
+    text-align: center;
+    max-height: 150px;
+    min-height: 100px;
+}
+
+.activity-list-container1 .activity .title {
+    margin: 10px 0 10px 0;
+}
+
+.activity-list-container1 .activity .description {
+    text-align: left;
+}
+
+.activity-list-container1 .ct-points-color {
+    margin: 5px 0 5px 0;
+}
