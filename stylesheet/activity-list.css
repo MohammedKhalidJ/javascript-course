@@ -1,6 +1,6 @@
 /* Activity List ----------- */
 
-.activity-list-container1 .activity {
+#activity-list-v2 .activity {
     display: inline-grid;
     max-width: 350px;
     min-width: 250px;
@@ -8,34 +8,34 @@
     overflow: hidden;
 }
 
-.activity-list-container1 .image-container {
+#activity-list-v2 .image-container {
     height: auto;
     width: auto;
     border-radius: initial;
 }
 
-.activity-list-container1 .image-container img {
+#activity-list-v2 .image-container img {
     display: block;
     margin: auto;
     width: 267px;
     height: 235px;
 }
 
-.activity-list-container1 .info-container {
+#activity-list-v2 .info-container {
     max-width: initial;
     text-align: center;
     max-height: 150px;
     min-height: 100px;
 }
 
-.activity-list-container1 .activity .title {
+#activity-list-v2 .activity .title {
     margin: 10px 0 10px 0;
 }
 
-.activity-list-container1 .activity .description {
+#activity-list-v2 .activity .description {
     text-align: left;
 }
 
-.activity-list-container1 .ct-points-color {
+#activity-list-v2 .ct-points-color {
     margin: 5px 0 5px 0;
 }
