@@ -1,0 +1,27 @@
+/* reward List ----------- */
+
+#reward-list-v2 .rewards .reward img {
+    display: block;
+    margin: auto;
+    width: 235px;
+    height: 235px;
+}
+
+.reward-list-container1 .info-container {
+    max-width: initial;
+    text-align: center;
+    max-height: 150px;
+    min-height: 100px;
+}
+
+#reward-list-v2 .rewards .reward .content .title,
+#reward-list-v2 .rewards .reward .content .row {
+    height: initial;
+}
+
+#reward-list-v2 .rewards .reward .content .row .frequency-capped,
+#reward-list-v2 .rewards .reward .content .row .locked,
+#reward-list-v2 .rewards .reward .content .row .points {
+    float: right;
+    margin: 5px 0 5px 0;
+}
