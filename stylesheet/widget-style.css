@@ -107,6 +107,7 @@
     min-width: 250px;
     width: 100%;
     overflow: hidden;
+    margin: 5px;
 }
 
 #activity-list-v2 .image-container {
