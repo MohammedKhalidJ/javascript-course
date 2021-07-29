@@ -1,38 +1,38 @@
 /* Smartphones (portrait and landscape) ----------- */
 
-@import url("./mobile.css") only screen and (min-device-width: 320px) and (max-device-width: 480px);
+@import url("https://mohammedkhalidj.github.io/javascript-course/stylesheet/mobile.css") only screen and (min-device-width: 320px) and (max-device-width: 480px);
 
 /* Smartphones (landscape) ----------- */
 
-@import url("./mobile.css") only screen and (min-width: 321px);
+@import url("https://mohammedkhalidj.github.io/javascript-course/stylesheet/mobile.css") only screen and (min-width: 321px);
 
 /* Smartphones (portrait) ----------- */
 
-@import url("./mobile.css") only screen and (max-width: 320px);
+@import url("https://mohammedkhalidj.github.io/javascript-course/stylesheet/mobile.css") only screen and (max-width: 320px);
 
 /* iPads (portrait and landscape) ----------- */
 
-@import url("./tablet.css") only screen and (min-device-width: 768px) and (max-device-width: 1024px);
+@import url("https://mohammedkhalidj.github.io/javascript-course/stylesheet/tablet.css") only screen and (min-device-width: 768px) and (max-device-width: 1024px);
 
 /* iPads (landscape) ----------- */
 
-@import url("./tablet.css") only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape);
+@import url("https://mohammedkhalidj.github.io/javascript-course/stylesheet/tablet.css") only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape);
 
 /* iPads (portrait) ----------- */
 
-@import url("./tablet.css") only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait);
+@import url("https://mohammedkhalidj.github.io/javascript-course/stylesheet/tablet.css") only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait);
 
 /**********
     iPad 3
     **********/
 
-@import url("./tablet.css") only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 2);
-@import url("./tablet.css") only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2);
+@import url("https://mohammedkhalidj.github.io/javascript-course/stylesheet/tablet.css") only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 2);
+@import url("https://mohammedkhalidj.github.io/javascript-course/stylesheet/tablet.css") only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2);
 
 /* Desktops and laptops ----------- */
 
-@import url("./desktop.css") only screen and (min-width: 1224px);
+@import url("https://mohammedkhalidj.github.io/javascript-course/stylesheet/desktop.css") only screen and (min-width: 1224px);
 
 /* Large screens ----------- */
 
-@import url("./desktop.css") only screen and (min-width: 1824px);
+@import url("https://mohammedkhalidj.github.io/javascript-course/stylesheet/desktop.css") only screen and (min-width: 1824px);
