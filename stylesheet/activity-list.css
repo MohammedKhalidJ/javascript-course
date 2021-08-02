@@ -1,42 +1,63 @@
 /* Activity List ----------- */
 
 #activity-list-v2 .activity {
-    display: inline-grid;
-    max-width: 350px;
-    min-width: 250px;
-    width: 100%;
-    overflow: hidden;
-    margin: 5px;
+    position: relative;
+    display: inline-grid !important;
+    max-width: 350px !important;
+    min-width: 250px !important;
+    width: 100% !important;
+    overflow: hidden !important;
+    border-bottom: none !important;
+    padding: initial !important;
 }
 
 #activity-list-v2 .image-container {
-    height: auto;
-    width: auto;
-    border-radius: initial;
+    height: auto !important;
+    width: auto !important;
+    border-radius: initial !important;
 }
 
 #activity-list-v2 .image-container img {
-    display: block;
-    margin: auto;
-    width: 267px;
-    height: 235px;
+    display: block !important;
+    margin: auto !important;
+    width: 350px !important;
+    height: 350px !important;
+    padding: initial !important;
 }
 
 #activity-list-v2 .info-container {
-    max-width: initial;
-    text-align: center;
-    max-height: 150px;
-    min-height: 100px;
+    max-width: initial !important;
+    max-height: 150px !important;
+    min-height: 150px !important;
+    position: absolute !important;
+    top: 60% !important;
+    width: 100% !important;
+    background: #0f94bcc9 !important;
 }
 
 #activity-list-v2 .activity .title {
-    margin: 10px 0 10px 0;
-}
-
-#activity-list-v2 .activity .description {
-    text-align: left;
+    margin: 10px 0 10px 0 !important;
 }
 
 #activity-list-v2 .ct-points-color {
-    margin: 5px 0 5px 0;
+    margin: 5px 0 5px 0 !important;
+    color: white !important;
+    font-weight: 700 !important;
+}
+
+#activity-list-v2 .points-container {
+    border: 1px solid #00af41!important;
+    background: #00af41!important;
+    text-align: center!important;
+    position: relative!important;
+    margin-left: 0 !important;
+}
+
+.ct-link-color {
+    font-size: 20px !important;
+}
+
+.description {
+    font-size: 15px !important;
+    color: #F6BE00;
 }
