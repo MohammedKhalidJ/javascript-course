@@ -4,11 +4,11 @@
     position: relative;
     display: inline-grid !important;
     max-width: 350px !important;
-    min-width: 250px !important;
+    min-width: 350px !important;
     width: 100% !important;
     overflow: hidden !important;
     border-bottom: none !important;
-    padding: initial !important;
+    background: #fff !important;
 }
 
 #activity-list-v2 .image-container {
@@ -31,8 +31,10 @@
     min-height: 150px !important;
     position: absolute !important;
     top: 60% !important;
-    width: 100% !important;
+    width: 97% !important;
     background: #0f94bcc9 !important;
+    margin: 0 10px !important;
+    padding-left: initial !important;
 }
 
 #activity-list-v2 .activity .title {
@@ -46,8 +48,8 @@
 }
 
 #activity-list-v2 .points-container {
-    border: 1px solid #00af41!important;
-    background: #00af41!important;
+    border: 1px solid #393434!important;
+    background: #393434!important;
     text-align: center!important;
     position: relative!important;
     margin-left: 0 !important;
