@@ -11,6 +11,10 @@
     background: #fff;
 }
 
+#activity-list-v2 .activity:hover {
+    background: #fff;
+}
+
 #activity-list-v2 .image-container {
     height: auto;
     width: auto;
