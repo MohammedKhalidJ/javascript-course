@@ -2,64 +2,64 @@
 
 #activity-list-v2 .activity {
     position: relative;
-    display: inline-grid !important;
-    max-width: 350px !important;
-    min-width: 350px !important;
-    width: 100% !important;
-    overflow: hidden !important;
-    border-bottom: none !important;
-    background: #fff !important;
+    display: inline-grid;
+    max-width: 350px;
+    min-width: 350px;
+    width: 100%;
+    overflow: hidden;
+    border-bottom: none;
+    background: #fff;
 }
 
 #activity-list-v2 .image-container {
-    height: auto !important;
-    width: auto !important;
-    border-radius: initial !important;
+    height: auto;
+    width: auto;
+    border-radius: initial;
 }
 
 #activity-list-v2 .image-container img {
-    display: block !important;
-    margin: auto !important;
-    width: 350px !important;
-    height: 350px !important;
-    padding: initial !important;
+    display: block;
+    margin: auto;
+    width: 350px;
+    height: 350px;
+    padding: initial;
 }
 
 #activity-list-v2 .info-container {
-    max-width: initial !important;
-    max-height: 150px !important;
-    min-height: 150px !important;
-    position: absolute !important;
-    top: 60% !important;
-    width: 97% !important;
-    background: #0f94bcc9 !important;
-    margin: 0 10px !important;
-    padding-left: initial !important;
+    max-width: initial;
+    max-height: 150px;
+    min-height: 150px;
+    position: absolute;
+    top: 60%;
+    width: 97%;
+    background: #0f94bcc9;
+    margin: 0 10px;
+    padding-left: initial;
 }
 
 #activity-list-v2 .activity .title {
-    margin: 10px 0 10px 0 !important;
+    margin: 10px 0 10px 0;
 }
 
 #activity-list-v2 .ct-points-color {
-    margin: 5px 0 5px 0 !important;
-    color: white !important;
-    font-weight: 700 !important;
+    margin: 5px 0 5px 0;
+    color: white;
+    font-weight: 700;
 }
 
 #activity-list-v2 .points-container {
-    border: 1px solid #393434!important;
-    background: #393434!important;
-    text-align: center!important;
-    position: relative!important;
-    margin-left: 0 !important;
+    border: 1px solid #393434;
+    background: #393434;
+    text-align: center;
+    position: relative;
+    margin-left: 0;
 }
 
 .ct-link-color {
-    font-size: 20px !important;
+    font-size: 20px;
 }
 
 .description {
-    font-size: 15px !important;
+    font-size: 15px;
     color: #F6BE00;
 }
