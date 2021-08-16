@@ -1,6 +1,6 @@
 /* Activity List ----------- */
 
-.activity-list-container1 .activity {
+#activity-list-v2 .activity {
     display: inline-grid;
     max-width: 230px;
     min-width: 230px;
@@ -14,38 +14,38 @@
     background: #fff;
 }
 
-.activity-list-container1 .image-container {
+#activity-list-v2 .image-container {
     height: auto;
     width: auto;
     border-radius: initial;
 }
 
-.activity-list-container1 .image-container img {
+#activity-list-v2 .image-container img {
     margin: auto;
     width: 190px;
     height: 200px;
     padding: initial;
 }
 
-.activity-list-container1 .info-container {
+#activity-list-v2 .info-container {
     max-width: initial;
     max-height: 150px;
     min-height: 150px;
     margin: 0 5px;
 }
 
-.activity-list-container1 .activity .title {
+#activity-list-v2 .activity .title {
     margin: 10px 0 10px 0;
 }
 
-.activity-list-container1 .ct-points-color {
+#activity-list-v2 .ct-points-color {
     margin: 5px 0 5px 0;
     color: rgb(0, 175, 65);
     font-size: 18px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
-.activity-list-container1 .points-container {
+#activity-list-v2 .points-container {
 
     text-align: center!important;
    
