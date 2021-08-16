@@ -18,6 +18,7 @@
     height: auto;
     width: auto;
     border-radius: initial;
+    background-color: #fff;
 }
 
 #activity-list-v2 .image-container img {
