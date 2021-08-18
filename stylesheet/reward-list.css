@@ -1,27 +1,41 @@
 /* reward List ----------- */
-
-#reward-list-v2 .rewards .reward img {
+#reward-list-v2 .rewards {
+    max-width: 100%;
     display: block;
-    margin: auto;
-    width: 235px;
-    height: 235px;
+    margin: 0 auto;
+    width: fit-content;
 }
 
-.reward-list-container1 .info-container {
-    max-width: initial;
-    text-align: center;
-    max-height: 150px;
-    min-height: 100px;
+#reward-list-v2 .rewards .reward {
+    border: none !important;
+    margin: 0px 15px!important;
+    width: auto !important;
+}
+
+#reward-list-v2 .rewards .reward img {
+    display: block !important;
+    margin: auto !important;
+    width: 180px !important;
+    height: 180px !important;
+}
+
+#reward-list-v2 .rewards .reward .content { 
+    text-align: center !important;
 }
 
 #reward-list-v2 .rewards .reward .content .title,
 #reward-list-v2 .rewards .reward .content .row {
-    height: initial;
+    height: initial !important;
+    font-size: 20px !important;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold !important;
 }
 
 #reward-list-v2 .rewards .reward .content .row .frequency-capped,
 #reward-list-v2 .rewards .reward .content .row .locked,
 #reward-list-v2 .rewards .reward .content .row .points {
-    float: right;
-    margin: 5px 0 5px 0;
+    font-size: 18px !important;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    float: none !important;
+    margin: 5px 0 5px 0 !important;
 }
