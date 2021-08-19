@@ -42,6 +42,7 @@
 #reward-list-v2 .rewards .reward .content .row .points {
     font-size: 18px !important;
     font-family: 'Effra Heavy', sans-serif;
+    font-weight: bold;
     float: none !important;
     margin: 5px 0 5px 0 !important;
 }
