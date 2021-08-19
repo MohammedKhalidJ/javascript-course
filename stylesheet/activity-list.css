@@ -44,12 +44,11 @@
     color: rgb(0, 175, 65);
     font-size: 18px;
     font-family: 'Effra Heavy', sans-serif;
+    font-weight: bold;
 }
 
 #activity-list-v2 .points-container {
-
     text-align: center!important;
-   
 }
 
 .ct-link-color {
