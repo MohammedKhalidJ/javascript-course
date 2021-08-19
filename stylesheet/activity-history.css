@@ -2,7 +2,8 @@
     display: none !important;
 }
 
-#activity-history table th {
+#activity-history table th,
+#reward-history-v2 table th {
     color: black !important;
     font-size: 18px !important;
     font-family: 'Effra Heavy', sans-serif !important;
