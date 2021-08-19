@@ -1,0 +1,16 @@
+.widget .header {
+    display: none !important;
+}
+
+#activity-history table th {
+    color: black !important;
+    font-size: 18px !important;
+    font-family: 'Effra Heavy', sans-serif !important;
+}
+
+#activity-history table tbody tr td,
+#activity-history table td p, #activity-history table th p,
+p, span {
+    font-size: 16px !important;
+    font-family: 'Effra Medium', sans-serif !important;
+}
