@@ -1,0 +1,38 @@
+#redeem-v2 #details .description {
+    border-bottom: none !important;
+}
+
+#redeem-v2 .additional-images .image-thumb:first-of-type {
+    display: none !important;
+}
+
+#redeem-v2 h2 { 
+    display: none !important;
+}
+
+.widget .header { 
+    background-color: white !important;
+    border-bottom: none !important;
+    top: 15px !important;
+}
+
+.widget .header h1, .widget .header h3 { 
+    color: black !important;
+    font-family: 'Effra Heavy', sans-serif !important;
+    font-size: 20px !important;
+}
+
+#redeem-v2 .numeric-details .row .label {
+    font-size: 20px !important;
+    font-family: 'Effra Heavy', sans-serif !important;
+}
+
+#redeem-v2 .numeric-details .row span { 
+    font-size: 18px !important;
+    font-family: 'Effra Medium', sans-serif !important;
+}
+
+#redeem-v2 .not-enough-points-container p { 
+    font-size: 16px !important;
+    font-family: 'Effra Medium', sans-serif !important;
+}
