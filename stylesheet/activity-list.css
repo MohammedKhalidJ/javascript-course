@@ -3,6 +3,12 @@
     display: none !important;
 }
 
+#activity-list-v2 {
+    text-align: center;
+    margin: 0 auto;
+    width: 100%;
+}
+
 #activity-list-v2 .activity {
     display: inline-grid;
     max-width: 230px;
