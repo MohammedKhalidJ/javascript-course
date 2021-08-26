@@ -1,4 +1,8 @@
 /* reward List ----------- */
+.widget .header {
+    display: none !important;
+}
+
 #reward-list-v2 .rewards {
     max-width: 100%;
     display: block;
