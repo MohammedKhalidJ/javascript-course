@@ -37,6 +37,10 @@
     font-family: 'Effra Medium', sans-serif !important;
 }
 
+#redeem-v2 .quantity-remaining {
+    display: none !important;
+}
+
 #poll-v2 .description {
     display: none !important;
 }
