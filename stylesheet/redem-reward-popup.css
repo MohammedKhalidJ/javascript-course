@@ -41,6 +41,28 @@
     display: none !important;
 }
 
+#redeem-v2 #review .buttons {
+    text-align: left !important;
+    width: 40% !important;
+}
+
+#redeem-v2 #review .buttons .btn.btn-secondary, #redeem-v2 #review .buttons a.btn.btn-secondary {
+    background-color: #FFF !important;
+    color: #00Af41 !important;
+    border: 1px solid #00Af41 !important;
+    border-radius: 4px !important;
+    float: right !important;
+    text-transform: capitalize !important;
+    margin-top: 5px !important;
+}
+
+#redeem-v2 #review .buttons .btn.btn-danger, #redeem-v2 #review .buttons a.btn.btn-danger {
+    border-bottom-width: 2px !important;
+    border-radius: 4px !important;
+    margin: 5px !important;
+    text-transform: capitalize !important;
+}
+
 #poll-v2 .description {
     display: none !important;
 }
