@@ -40,12 +40,14 @@
 #activity-list-v2 .info-container {
     max-width: initial;
     max-height: 150px;
-    min-height: 150px;
+    min-height: 135px;
     margin: 0 5px;
+    text-align: left;
 }
 
 #activity-list-v2 .activity .title {
     margin: 10px 0 10px 0;
+    text-align: left;
 }
 
 #activity-list-v2 .ct-points-color {
