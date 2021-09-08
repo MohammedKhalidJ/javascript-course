@@ -15,3 +15,7 @@ p, span {
     font-size: 16px !important;
     font-family: 'Effra Medium', sans-serif !important;
 }
+
+#points-expiration-v2 .points {
+    color: #00AF41;
+}
