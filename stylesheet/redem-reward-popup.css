@@ -95,3 +95,17 @@
     padding: 13px 36px !important;
     border-radius: 4px !important;
 }
+
+.dl.form.submit .btn {
+    border-radius: 4px !important;
+    margin: 5px !important;
+    text-transform: capitalize !important
+}
+
+.close-container .btn.btn-secondary, a.btn.btn-secondary {
+    background-color: #FFF !important;
+    color: #00Af41 !important;
+    border: 1px solid #00Af41 !important;
+    border-radius: 4px !important;
+    text-transform: capitalize !important;
+}
