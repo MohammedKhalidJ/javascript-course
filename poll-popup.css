@@ -1,0 +1,51 @@
+
+.widget .header { 
+    background-color: white !important;
+    border-bottom: none !important;
+    top: 15px !important;
+}
+
+.widget .header h1, .widget .header h3 { 
+    color: black !important;
+    font-family: 'Effra Heavy', sans-serif !important;
+    font-size: 20px !important;
+    text-transform: capitalize !important;
+}
+
+#poll-v2 .submit-container {
+    float: left !important;
+}
+
+#poll-v2 .submit-container button {
+    float: left !important;
+    font-size: 24px !important;
+    font-family: 'Effra Heavy', sans-serif !important;
+    padding: 13px 36px !important;
+    border-radius: 4px !important;
+}
+
+#poll-v2 .submit-container .points {
+    font-size: 18px !important;
+    margin: 20px 20px !important;
+    font-family: 'Effra Medium', sans-serif !important;
+}
+
+#poll-v2 .description {
+    display: none !important;
+}
+
+#poll-v2 hr {
+    border: none !important;
+}
+
+#poll-v2 .question-container .question-text { 
+    margin: auto !important;
+    font-size: 18px !important;
+    font-family: 'Effra Light', sans-serif !important;
+}
+
+#poll-v2 .question-type-radio label.answer-option-wrapper {
+    font-size: 16px !important;
+    font-family: 'Effra Medium', sans-serif !important;
+    margin: 15px 0 !important;
+}
