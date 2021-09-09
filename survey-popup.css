@@ -53,3 +53,8 @@
 #survey-v3 .submit-container {
    float: left !important;
 }
+
+#survey-v3 .submit-container button { 
+    border-radius: 4px !important;
+    text-transform: capitalize !important;
+}
