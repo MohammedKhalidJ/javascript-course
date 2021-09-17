@@ -3,6 +3,10 @@
     display: none !important;
 }
 
+.widget .container { 
+    padding: 10px !important;
+}
+
 #activity-list-v2 {
     text-align: center;
     margin: 0 auto;
