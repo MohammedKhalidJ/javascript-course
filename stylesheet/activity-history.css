@@ -6,10 +6,6 @@
     padding: 10px !important;
 }
 
-#points-expiration-v2 .container {
-    padding: 10px 13px 10px 13px !important;
-}
-
 #activity-history table th,
 #reward-history-v2 table th {
     color: black !important;
@@ -26,4 +22,8 @@ p, span {
 
 #points-expiration-v2 .points {
     color: #00AF41;
+}
+
+#points-expiration-v2 .container {
+    padding: 10px 13px 10px 13px !important;
 }
