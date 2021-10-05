@@ -3,6 +3,10 @@
     display: none !important;
 }
 
+.widget .container { 
+    padding: 0px !important;
+}
+
 #reward-list-v2 .rewards {
     max-width: 100%;
     display: block;
