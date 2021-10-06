@@ -50,3 +50,9 @@
     font-family: 'Effra Medium', sans-serif !important;
     margin: 15px 0 !important;
 }
+
+#quiz-v2 .buttons__left .btn.btn-small {
+    padding: 10px;
+    border-radius: 4px;
+    text-transform: capitalize;
+}
