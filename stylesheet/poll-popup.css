@@ -54,7 +54,7 @@
 
 
 
-#quiz-v2 .buttons__left .btn.btn-small, #quiz-v2 .progress__filled {
+#quiz-v2 .buttons__left .btn.btn-small, #quiz-v2 .progress {
     display: none !important;
 }
 
