@@ -18,11 +18,12 @@
 
 #poll-v2 .submit-container button {
     float: left !important;
-    font-size: 24px !important;
+    font-size: 14px !important;
     font-family: 'Effra Heavy', sans-serif !important;
-    padding: 13px 36px !important;
+    padding: 10px 10px !important;
     border-radius: 4px !important;
     text-transform: capitalize !important;
+    margin-top: 10px !important;
 }
 
 #poll-v2 .submit-container .points {
@@ -50,6 +51,8 @@
     font-family: 'Effra Medium', sans-serif !important;
     margin: 15px 0 !important;
 }
+
+
 
 #quiz-v2 .buttons__left .btn.btn-small, #quiz-v2 .progress__filled {
     display: none !important;
