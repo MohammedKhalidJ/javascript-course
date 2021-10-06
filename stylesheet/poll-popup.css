@@ -58,9 +58,13 @@
     display: none !important;
 }
 
-#quiz-v2 .right .btn.btn-small {
+#quiz-v2 .buttons__right .btn.btn-small {
     float: left !important;
     padding: 10px !important;
     border-radius: 4px !important;
     text-transform: capitalize !important;
+}
+
+#quiz-v2 .questions {
+    min-height: 180px !important;
 }
