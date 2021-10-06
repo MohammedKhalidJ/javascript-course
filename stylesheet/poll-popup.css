@@ -51,7 +51,12 @@
     margin: 15px 0 !important;
 }
 
-#quiz-v2 .buttons__left .btn.btn-small {
+#quiz-v2 .buttons__left .btn.btn-small, #quiz-v2 .progress__filled {
+    display: none !important;
+}
+
+#quiz-v2 .right .btn.btn-small {
+    float: left !important;
     padding: 10px !important;
     border-radius: 4px !important;
     text-transform: capitalize !important;
