@@ -52,7 +52,7 @@
 }
 
 #quiz-v2 .buttons__left .btn.btn-small {
-    padding: 10px;
-    border-radius: 4px;
-    text-transform: capitalize;
+    padding: 10px !important;
+    border-radius: 4px !important;
+    text-transform: capitalize !important;
 }
