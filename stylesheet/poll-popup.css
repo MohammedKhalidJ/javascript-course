@@ -66,5 +66,9 @@
 }
 
 #quiz-v2 .questions {
-    min-height: 180px !important;
+    min-height: 170px !important;
+}
+
+#quiz-v2 .buttons {
+    margin: 0px !important;
 }
