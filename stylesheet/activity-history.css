@@ -21,7 +21,7 @@ p, span {
 }
 
 #points-expiration-v2 .points {
-    color: #00AF41;
+    color: #000 !important;
 }
 
 #points-expiration-v2 .container {
