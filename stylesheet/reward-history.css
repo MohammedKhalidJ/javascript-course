@@ -1,0 +1,28 @@
+.widget .header {
+    display: none !important;
+}
+
+.widget .container { 
+    padding: 10px !important;
+}
+
+#reward-history-v2 table th {
+    color: black !important;
+    font-size: 18px !important;
+    font-family: 'Effra Heavy', sans-serif !important;
+}
+
+#activity-history table tbody tr td,
+#activity-history table td p, #activity-history table th p,
+p, span {
+    font-size: 16px !important;
+    font-family: 'Effra Medium', sans-serif !important;
+}
+
+#points-expiration-v2 .points {
+    color: #000 !important;
+}
+
+#points-expiration-v2 .container {
+    padding: 10px 13px 10px 13px !important;
+}

@@ -1,0 +1,28 @@
+
+.widget .header { 
+    background-color: white !important;
+    border-bottom: none !important;
+    top: 15px !important;
+}
+
+.widget .header h1, .widget .header h3 { 
+    color: black !important;
+    font-family: 'Effra Heavy', sans-serif !important;
+    font-size: 20px !important;
+    text-transform: capitalize !important;
+}
+
+#quiz-v2 .buttons__left .btn.btn-small, #quiz-v2 .progress {
+    display: none !important;
+}
+
+#quiz-v2 .buttons__right .btn.btn-small {
+    float: left !important;
+    padding: 10px !important;
+    border-radius: 4px !important;
+    text-transform: capitalize !important;
+}
+
+#quiz-v2 .questions {
+    min-height: 180px !important;
+}

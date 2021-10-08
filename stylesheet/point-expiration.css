@@ -1,0 +1,15 @@
+.widget .header {
+    display: none !important;
+}
+
+.widget .container { 
+    padding: 10px !important;
+}
+
+#points-expiration-v2 .points {
+    color: #000 !important;
+}
+
+#points-expiration-v2 .container {
+    padding: 10px 13px 10px 13px !important;
+}
