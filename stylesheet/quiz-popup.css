@@ -41,3 +41,7 @@
 #quiz-v2 .points-container .success-message {
     display: none;
 }
+
+#quiz-v2 .notification-container {
+    margin-top: 0px !important;
+}
