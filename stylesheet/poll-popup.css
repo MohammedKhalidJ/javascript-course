@@ -68,3 +68,7 @@
 #quiz-v2 .questions {
     min-height: 180px !important;
 }
+
+#poll-v2 .success-message:first-child {
+    display: none;
+}
