@@ -26,3 +26,14 @@
 #quiz-v2 .questions {
     min-height: 180px !important;
 }
+
+#ct-modal button {
+    bottom: -47px !important;
+}
+#quiz-v2 .points-container .points{
+    display: none;
+}
+
+#quiz-v2 .quiz-summary-container .question-summary {
+    margin-top: 10px !important;
+}
