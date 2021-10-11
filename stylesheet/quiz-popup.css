@@ -37,3 +37,7 @@
 #quiz-v2 .quiz-summary-container .question-summary {
     margin-top: 10px !important;
 }
+
+#quiz-v2 .points-container .success-message {
+    display: none;
+}
