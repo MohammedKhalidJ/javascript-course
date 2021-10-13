@@ -109,3 +109,7 @@
     border-radius: 4px !important;
     text-transform: capitalize !important;
 }
+
+#redeem-v2 .not-enough-points-container p {
+    font-style: normal;
+}
