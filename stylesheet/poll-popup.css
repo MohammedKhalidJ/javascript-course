@@ -60,9 +60,20 @@
 
 #quiz-v2 .buttons__right .btn.btn-small {
     float: left !important;
-    padding: 10px !important;
+    padding: 13px 36px !important;
     border-radius: 4px !important;
     text-transform: capitalize !important;
+    background-color: #00AF41 !important;
+    border: 1px solid #00AF41 !important;
+}
+
+#quiz-v2 .buttons__right .btn.btn-small:hover {
+    float: left !important;
+    padding: 13px 36px !important;
+    border-radius: 4px !important;
+    text-transform: capitalize !important;
+    background-color: #009F3A !important;
+    border: 1px solid #009F3A !important;
 }
 
 #quiz-v2 .questions {
