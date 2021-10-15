@@ -13,3 +13,19 @@
 #points-expiration-v2 .container {
     padding: 10px 13px 10px 13px !important;
 }
+
+#points-expiration-v2 li {
+    display: none !important;
+}
+
+#points-expiration-v2 li:nth-child(1) {
+    display: flex !important;
+}
+
+#points-expiration-v2 li:nth-child(2) {
+    display: flex !important;
+}
+
+#points-expiration-v2 li:nth-child(3) {
+    display: flex !important;
+}
