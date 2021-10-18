@@ -129,3 +129,7 @@
 .widget .container {
     padding: 60px 10 0px 10px !important
 }
+
+#ct-modal button {
+    bottom: -47px !important;
+}
