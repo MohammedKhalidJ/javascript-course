@@ -27,9 +27,6 @@
     min-height: 180px !important;
 }
 
-#ct-modal button {
-    bottom: -47px !important;
-}
 #quiz-v2 .points-container .points{
     display: none;
 }

@@ -23,6 +23,14 @@
     text-transform: capitalize !important;
 }
 
+#redeeem-v2, #redeeem-v2 .container {
+    padding-bottom: initial !important;
+}
+
+.widget .container {
+    padding: 60px 10px 0px 10px !important
+}
+
 #redeem-v2 .numeric-details .row .label {
     font-size: 20px !important;
     font-family: 'Effra Heavy', sans-serif !important;
@@ -122,14 +130,4 @@
     margin-top: 20px !important;
 }
 
-#redeeem-v2 .container {
-    padding-bottom: 0px !important;
-}
 
-.widget .container {
-    padding: 60px 10 0px 10px !important
-}
-
-#ct-modal button {
-    bottom: -47px !important;
-}
