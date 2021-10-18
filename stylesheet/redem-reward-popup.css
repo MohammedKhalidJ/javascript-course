@@ -113,3 +113,11 @@
 #redeem-v2 .not-enough-points-container p {
     font-style: normal;
 }
+
+#redeem-v2 .numeric-details .row span {
+    font-size: 16px !important;
+}
+
+#redeem-v2 .numeric-details:first-child {
+    margin-bottom: 30px !important;
+}
