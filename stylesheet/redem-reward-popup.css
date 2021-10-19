@@ -130,4 +130,12 @@
     margin-top: 20px !important;
 }
 
+.explain-redeem-success .confirmation-sent-to, .explain-redeem-success .no-emphasis:last-of-type, #redeem-v2 #confirmation .address { 
+    display: none;
+}
+
+#redeem-v2 #review .email-address-info { 
+    display: none;
+}
+
 
