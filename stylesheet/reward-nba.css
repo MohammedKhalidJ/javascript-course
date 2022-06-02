@@ -303,9 +303,9 @@ fieldset {
 }
 
 #reward-list-v2 .rewards .reward .content .title {
-    font-family: 'Knockout';
-font-style: normal;
-font-weight: 400;
-font-size: 20px;
-line-height: 80%;
+    font-family: 'Knockout' !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    font-size: 20px !important;
+    line-height: 80% !important;
 }
