@@ -20,6 +20,7 @@ body {
     display: none !important;
   }
   .widget .header h1 {
+    display: none;
     position: static !important;
     width: 1001px !important;
     height: 19px !important;
