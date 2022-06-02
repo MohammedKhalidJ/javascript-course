@@ -3,14 +3,14 @@
     font-style: normal;
     font-weight: 400;
     font-size: 24px;
-    src: url("/Knockout-49.otf") format("otf");  
+    src: url("./Knockout-49.otf") format("opentype");  
 }
 @font-face {
     font-family: 'Knockout';
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
-    src: url("/Knockout-49.otf") format("otf");  
+   src: url("./Knockout-49.otf") format("opentype");  
 }
 
 body {
