@@ -55,6 +55,10 @@ body {
 /*         margin: 40px 0px !important; */
   }
 
+#reward-list-v2 .rewards {
+      margin-left: 0 !important;
+  }
+
 #reward-list-v2 .rewards .reward .content .row {
     display: none !important;
 }
