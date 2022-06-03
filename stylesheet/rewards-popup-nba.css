@@ -86,7 +86,7 @@ fieldset {
     display: none !important;
 }
 
-button.btn {
+.submit button.btn {
     display: flex !important;
     flex-direction: column !important;
     align-items: center !important;
@@ -123,7 +123,7 @@ button.btn {
     height: 133px !important;
 }
 
-#redeem-v2 #details .description {
+#redeem-v2 #details .description, #redeem-v2 #review .email-address-info {
     width: 351px !important;
     height: 133px !important;
 
