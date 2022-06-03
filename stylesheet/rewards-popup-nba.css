@@ -1,0 +1,166 @@
+@font-face {
+    font-family: 'Knockout';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    src: url("./Knockout-49.otf") format("opentype");
+}
+
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    src: url("./Roboto-Regular.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: 'Roboto Condensed';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    src: url("./RobotoCondensed-Regular.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    src: url("./SF-Pro-Display-Bold.otf") format("opentype");
+}
+
+@font-face {
+    font-family: 'SF Pro Text';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    src: url("./SF-Pro-Text-Regular.otf") format("opentype");
+}
+
+.widget .header h3 {
+    width: 598px !important;
+    height: 26px !important;
+
+    /* nba/headline-05 */
+
+    font-family: 'Knockout' !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    font-size: 32px !important;
+    line-height: 80% !important;
+    /* identical to box height, or 26px */
+
+    text-transform: uppercase !important;
+    font-feature-settings: 'ss02' on !important;
+
+    /* web--light/on-background */
+
+    color: #000000 !important;
+}
+
+.widget .header {
+    background-color: #FFF !important;
+    border-bottom: 1px solid #DADDDE !important;
+    padding-bottom: 11px !important;
+}
+
+#redeem-v2 .left {
+    text-align: unset !important;
+}
+
+#redeem-v2 .left img {
+    width: 239px !important;
+    height: 133px !important;
+}
+
+#redeem-v2 .additional-images .image-thumb {
+    display: none !important;
+}
+
+#redeem-v2 .numeric-details {
+    display: none !important;
+}
+
+fieldset {
+    display: none !important;
+}
+
+button.btn {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    padding: 12px 20px !important;
+    gap: 8px !important;
+    width: 351px !important;
+    height: 48px !important;
+    background: rgba(25, 28, 35, 0.9) !important;
+    border-radius: 4px !important;
+
+    font-family: 'Roboto Condensed' !important;
+    font-style: normal !important;
+    font-weight: 700 !important;
+    font-size: 20px !important;
+    line-height: 100% !important;
+}
+
+#redeem-v2 .form {
+    float: right !important;
+}
+
+#redeem-v2 .left {
+    position: absolute !important;
+    width: 239px !important;
+    height: 133px !important;
+    top: 15% !important;
+}
+
+#redeem-v2 .right {
+    position: relative !important;
+    width: 80% !important;
+    left: 45% !important;
+    width: 351px !important;
+    height: 133px !important;
+}
+
+#redeem-v2 #details .description {
+    width: 351px !important;
+    height: 133px !important;
+
+    border: none !important;
+    padding: 0 !important;
+    margin: 0 !important;
+
+    font-family: 'SF Pro Text' !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    font-size: 16px !important;
+    line-height: 120% !important;
+    margin-bottom: 48px !important;
+    margin-top: 56px !important;
+}
+
+#redeem-v2 h2 {
+    width: 351px !important;
+    height: 19px !important;
+
+    /* nba/headline-03 */
+
+    font-family: 'Knockout' !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    font-size: 24px !important;
+    line-height: 80% !important;
+    /* or 19px */
+
+    text-transform: uppercase !important;
+    font-feature-settings: 'ss02' on !important;
+
+    /* web--light/on-background */
+
+    color: #000000 !important;
+
+    position: absolute !important;
+    left: 45% !important;
+    top: 13% !important;
+}
