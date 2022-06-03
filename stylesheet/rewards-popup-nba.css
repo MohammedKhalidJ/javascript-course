@@ -205,3 +205,26 @@ fieldset {
     color: #fff !important;
     border: 1px solid #700c1b !important;
 }
+
+#redeem-v2 #confirmation .right {
+    top: 22% !important;
+    position: absolute !important;
+}
+
+.close-container .btn.btn-secondary {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    padding: 12px 20px !important;
+    gap: 8px !important;
+    width: 351px !important;
+    height: 20px !important;
+    font-family: 'Roboto Condensed' !important;
+    font-style: normal !important;
+    font-weight: 700 !important;
+    font-size: 20px !important;
+    line-height: 100% !important;
+    color: #FFFFFF !important;
+    height: 48px !important;
+    background: black !important;
+}
