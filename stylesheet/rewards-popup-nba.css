@@ -112,7 +112,7 @@ fieldset {
     position: absolute !important;
     width: 239px !important;
     height: 133px !important;
-    top: 15% !important;
+    top: 22% !important;
 }
 
 #redeem-v2 .right {
@@ -124,9 +124,10 @@ fieldset {
 }
 
 #redeem-v2 #details .description,
-#redeem-v2 #review .email-address-info {
+#redeem-v2 #review .email-address-info,
+#redeem-v2 #confirmation .explain-redeem-success {
     width: 351px !important;
-    height: 133px !important;
+    height: 105px !important;
 
     border: none !important;
     padding: 0 !important;
@@ -137,7 +138,6 @@ fieldset {
     font-weight: 400 !important;
     font-size: 16px !important;
     line-height: 120% !important;
-    margin-bottom: 48px !important;
     margin-top: 56px !important;
 }
 
@@ -163,7 +163,7 @@ fieldset {
 
     position: absolute !important;
     left: 45% !important;
-    top: 13% !important;
+    top: 20% !important;
 }
 
 #redeem-v2 #review .buttons {
