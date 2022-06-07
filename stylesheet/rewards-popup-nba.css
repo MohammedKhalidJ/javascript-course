@@ -206,10 +206,10 @@ fieldset {
     border: 1px solid #700c1b !important;
 }
 
-#redeem-v2 #confirmation .right {
+/* #redeem-v2 #confirmation .right {
     top: 22% !important;
     position: absolute !important;
-}
+} */
 
 .close-container .btn.btn-secondary {
     display: flex !important;
