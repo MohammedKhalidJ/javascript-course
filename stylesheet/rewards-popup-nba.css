@@ -170,6 +170,10 @@ fieldset {
     text-align: center !important;
 }
 
+#redeem-v2 #review .buttons .btn:not(:last-child) {
+    margin-right: 10px !important;
+}
+
 .buttons .btn.btn-secondary {
     border-bottom-width: thin !important;
 
@@ -183,6 +187,8 @@ fieldset {
     width: 167.5px !important;
     height: 48px !important;
     border-radius: 4px !important;
+    background: white !important;
+    border: 1px solid !important;
 }
 
 .buttons .btn.btn-danger {
