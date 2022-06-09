@@ -124,6 +124,7 @@ fieldset {
 
 #redeem-v2 .form {
     float: right !important;
+    margin-top: 15px !important;
 }
 
 #redeem-v2 .left {
@@ -145,7 +146,7 @@ fieldset {
 #redeem-v2 #review .email-address-info,
 #redeem-v2 #confirmation .explain-redeem-success {
     width: 351px !important;
-    height: 105px !important;
+    height: auto !important;
 
     border: none !important;
     padding: 0 !important;
@@ -259,7 +260,7 @@ fieldset {
 .sold-out p {
     font-family: 'SF Pro Text' !important;
     font-style: normal !important;
-    font-weight: 400 !important;
+    font-weight: 700 !important;
     font-size: 16px !important;
     line-height: 120% !important;
 }
