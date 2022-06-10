@@ -213,6 +213,11 @@ fieldset {
     border: 1px solid !important;
 }
 
+.buttons .btn.btn-secondary:hover {
+    background: black !important;
+    color: white !important;
+}
+
 .buttons .btn.btn-danger {
     border-bottom-width: thin !important;
     width: 49px !important;
@@ -233,6 +238,11 @@ fieldset {
     border-radius: 4px !important;
     color: #fff !important;
     border: 1px solid #700c1b !important;
+}
+
+.buttons .btn.btn-danger:hover {
+    background: white !important;
+    color: black !important;
 }
 
 /* #redeem-v2 #confirmation .right {
@@ -257,6 +267,12 @@ fieldset {
     color: #FFFFFF !important;
     height: 48px !important;
     background: black !important;
+}
+
+.close-container .btn.btn-secondary:hover {
+    background: white !important;
+    color: black !important;
+    border: 1px solid !important;
 }
 
 .sold-out p {
