@@ -49,3 +49,11 @@
 
     color: #000000;
 }
+
+#reward-history-v2 .redemption-history tbody tr td:last-child {
+    display: none !important;
+}
+
+#reward-history-v2 .redemption-history thead tr th:last-child {
+    display: none !important;
+}
