@@ -257,6 +257,8 @@ fieldset {
 }
 
 .sold-out p {
+    position: absolute !important;
+    bottom: 0% !important;
     font-family: 'SF Pro Text' !important;
     font-style: normal !important;
     font-weight: 700 !important;
