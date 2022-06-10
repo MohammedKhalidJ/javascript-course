@@ -53,9 +53,17 @@ body {
     margin-right: 1% !important;
 }
 
+#reward-list-v2 .rewards .reward:hover {
+    border: 1px solid black !important;
+}
+
 #reward-list-v2 .rewards>* {
     margin-left: 0 !important;
     margin-right: 0 !important;
+}
+
+#reward-list-v2 .rewards:hover{
+    border: 1px solid #000 !important;
 }
 
 #reward-list-v2 .rewards .reward .content {
