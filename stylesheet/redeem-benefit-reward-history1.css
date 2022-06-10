@@ -1,0 +1,59 @@
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    src: url("./Roboto-Regular.ttf") format("truetype");
+}
+
+.widget .header {
+    display: none !important;
+}
+
+.widget .container {
+    padding-top: 10px !important;
+}
+
+#reward-history-v2 .redemption-history thead {
+    border-bottom: none !important;
+}
+
+#reward-history-v2 .redemption-history thead tr th {
+    width: 210px;
+    height: 17px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 120%;
+
+    color: #000000;
+}
+
+#reward-history-v2 .redemption-history thead tr td {
+    width: 210px;
+    height: 17px;
+
+    /* nba/body-00 */
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 120%;
+    /* identical to box height, or 17px */
+
+
+    /* mobile--light/text--primary */
+
+    color: #000000;
+}
+
+#reward-history-v2 .redemption-history tbody tr td:last-child {
+    display: none !important;
+}
+
+#reward-history-v2 .redemption-history thead tr th:last-child {
+    display: none !important;
+}
