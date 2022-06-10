@@ -36,6 +36,9 @@ body {
 }
 
 #reward-list-v2 .rewards .reward img {
+    margin: auto !important;
+    display: block !important;
+    padding: 10px !important;
     position: static !important;
     margin: auto !important;
     display: block !important;
@@ -62,7 +65,7 @@ body {
     margin-right: 0 !important;
 }
 
-#reward-list-v2 .rewards:hover{
+#reward-list-v2 .rewards .reward:hover{
     border: 1px solid #000 !important;
 }
 
