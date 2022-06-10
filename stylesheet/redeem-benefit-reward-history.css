@@ -57,3 +57,7 @@
 #reward-history-v2 .redemption-history thead tr th:last-child {
     display: none !important;
 }
+
+#reward-history-v2 table tr:nth-child(n+5) {
+    display: none !important;
+}
