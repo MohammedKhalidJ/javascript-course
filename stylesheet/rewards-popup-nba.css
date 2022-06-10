@@ -38,8 +38,6 @@
     src: url("./SF-Pro-Text-Regular.otf") format("opentype");
 }
 
-
-
 #redeem-v2 .container {
     position: relative !important;
 }
@@ -120,6 +118,12 @@ fieldset {
     font-weight: 700 !important;
     font-size: 20px !important;
     line-height: 100% !important;
+}
+
+.submit button.btn:hover {
+    background: white !important;
+    color: black !important;
+    border: 1px solid !important;
 }
 
 #redeem-v2 .form {
