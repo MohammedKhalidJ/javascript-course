@@ -93,6 +93,10 @@ body {
     margin-right: 0 !important;
 }
 
+#reward-list-v2 .rewards .reward:hover {
+    border: 1px solid black !important;
+}
+
 #reward-list-v2 .rewards .reward .content {
     width: 294px;
     height: 40px;
