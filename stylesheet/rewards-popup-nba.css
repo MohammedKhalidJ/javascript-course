@@ -41,7 +41,8 @@
 
 
 #redeem-v2 .container {
-    position: relative;
+    position: relative !important;
+    padding-bottom: 0px !important;
 }
 
 #redeem-v2 #details .description {
@@ -128,7 +129,6 @@ fieldset {
 }
 
 #redeem-v2 .left {
-    position: absolute !important;
     width: 239px !important;
     height: 133px !important;
     top: 22% !important;
@@ -145,7 +145,7 @@ fieldset {
 #redeem-v2 #details .description,
 #redeem-v2 #review .email-address-info,
 #redeem-v2 #confirmation .explain-redeem-success {
-    width: 351px !important;
+    width: 345px !important;
     height: auto !important;
 
     border: none !important;
@@ -157,7 +157,7 @@ fieldset {
     font-weight: 400 !important;
     font-size: 16px !important;
     line-height: 120% !important;
-    margin-top: 56px !important;
+    margin-top: -80px !important;
 }
 
 #redeem-v2 h2 {
@@ -182,7 +182,6 @@ fieldset {
 
     position: absolute !important;
     left: 45% !important;
-    top: 20% !important;
 }
 
 #redeem-v2 #review .buttons {
