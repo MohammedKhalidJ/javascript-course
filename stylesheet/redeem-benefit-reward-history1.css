@@ -30,6 +30,7 @@
 
     color: #000000;
     border-bottom: 1px solid #F3F4F5 !important;
+    padding-bottom: 20px !important;
 }
 
 #reward-history-v2 .redemption-history thead tr td {
