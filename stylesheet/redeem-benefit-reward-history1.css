@@ -24,11 +24,12 @@
 
     font-family: 'Roboto';
     font-style: normal;
-    font-weight: 500;
+    font-weight: 600;
     font-size: 14px;
     line-height: 120%;
 
     color: #000000;
+    border-bottom: 1px solid #F3F4F5 !important;
 }
 
 #reward-history-v2 .redemption-history thead tr td {
@@ -48,10 +49,15 @@
     /* mobile--light/text--primary */
 
     color: #000000;
+
 }
 
 #reward-history-v2 .redemption-history tbody tr td:last-child {
     display: none !important;
+}
+
+#reward-history-v2 .redemption-history tbody tr {
+    border-bottom: 1px solid #F3F4F5 !important;
 }
 
 #reward-history-v2 .redemption-history thead tr th:last-child {
