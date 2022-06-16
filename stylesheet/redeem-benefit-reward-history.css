@@ -56,6 +56,19 @@
     border-bottom: 1px solid #F3F4F5 !important;
 }
 
+#reward-history-v2 .redemption-history tbody tr td div span a {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 120%;
+    color: #0268D6;
+}
+
+#reward-history-v2 .redemption-history td {
+    padding: 12px 20px !important;
+}
+
 #reward-history-v2 .redemption-history tbody tr td:last-child {
     display: none !important;
 }
@@ -66,4 +79,8 @@
 
 #reward-history-v2 table tr:nth-child(n+5) {
     display: none !important;
+}
+
+#reward-history-v2 .redemption-history th:first-child { 
+    padding: 4px 20px !important;
 }
