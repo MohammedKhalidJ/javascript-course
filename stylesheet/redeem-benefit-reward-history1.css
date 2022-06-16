@@ -64,3 +64,20 @@
 #reward-history-v2 .redemption-history thead tr th:last-child {
     display: none !important;
 }
+
+#reward-history-v2 .redemption-history tbody tr td div span a {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 120%;
+    color: #0268D6;
+}
+
+#reward-history-v2 .redemption-history td {
+    padding: 12px 20px !important;
+}
+
+#reward-history-v2 .redemption-history th:first-child { 
+    padding: 4px 20px !important;
+}
