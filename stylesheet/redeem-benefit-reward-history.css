@@ -56,13 +56,14 @@
     border-bottom: 1px solid #F3F4F5 !important;
 }
 
-#reward-history-v2 .redemption-history tbody tr td div span a {
+#reward-history-v2 .redemption-history tbody tr td div span a, #reward-history-v2 .redemption-history tbody tr td a {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 120%;
     color: #0268D6;
+    text-decoration: underline;
 }
 
 #reward-history-v2 .redemption-history td {
