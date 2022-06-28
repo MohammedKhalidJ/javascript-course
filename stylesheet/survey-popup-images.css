@@ -149,10 +149,10 @@
 }
 
  .answer-options .answer-option-text {
-    position: absolute !important;
+/*     position: absolute !important;
     top: 5% !important;
     left: 5% !important;
-    vertical-align: middle !important;
+    vertical-align: middle !important; */
     /* width: 132px; */
     /* height: 17px; */
     font-family: 'Roboto' !important;
