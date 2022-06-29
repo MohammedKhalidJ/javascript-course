@@ -218,12 +218,15 @@ fieldset {
     color: white !important;
 }
 
+.buttons .btn.btn-danger:first-letter {
+    text-transform: capitalize !important;
+}
 .buttons .btn.btn-danger {
     border-bottom-width: thin !important;
     width: 49px !important;
     height: 20px !important;
     font-family: 'Roboto Condensed' !important;
-    text-transform: capitalize !important;
+    text-transform: lowercase !important;
     font-style: normal !important;
     font-weight: 700 !important;
     font-size: 20px !important;
