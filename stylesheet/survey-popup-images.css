@@ -165,7 +165,7 @@
 }
 
  .question-type-radio label.answer-option-wrapper {
-    margin: 10px 0 !important;
+    margin: 20px 10px !important;
 }
 
  .submit-container {
@@ -227,7 +227,8 @@
     top: 75% !important;
 }
 .answer-options .answer-option-text {
-    margin-left: 20px !important;   
+    /* margin-left: 20px !important;    */
+    vertical-align: top !important;
 }
 #survey-v3 .question-container .image-wrapper img {
  margin-top: 30px !important;   
@@ -277,3 +278,7 @@
     width: 530px !important;
     justify-content: right !important;
 } */
+
+.fa.success {
+    display: none !important;
+}
