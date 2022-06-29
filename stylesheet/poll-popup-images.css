@@ -1,0 +1,293 @@
+@font-face {
+    font-family: 'Knockout';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    src: url("./Knockout-49.otf") format("opentype");  
+}
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    src: url("./Roboto-Regular.ttf") format("truetype");
+} 
+@font-face {
+    font-family: 'Roboto Condensed';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    src: url("./RobotoCondensed-Regular.ttf") format("truetype");
+} 
+@font-face {
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    src: url("./SF-Pro-Display-Bold.otf") format("opentype");
+} 
+@font-face {
+    font-family: 'SF Pro Text';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    src: url("./SF-Pro-Text-Regular.otf") format("opentype");
+} 
+.widget .header {
+        display: flex !important;
+        flex-direction: column !important;
+        align-items: flex-start !important;
+        padding: 0px 8px !important;
+        position: static !important;
+        width: 614px !important;
+/*         height: 85px !important; */
+        left: 24px !important;
+        top: 64px !important;
+        flex: none !important;
+        order: 1 !important;
+        align-self: stretch !important;
+        flex-grow: 0 !important;
+        margin: 16px 0px !important;
+        background-color: white !important;
+        border-bottom: none !important;
+      }
+      #poll-v2 > div.header.ct-header-color {
+        padding-bottom: 0px !important;
+      }
+      .widget .header h1 {
+        position: static !important;
+        width: 598px !important;
+        height: auto !important;
+        left: calc(50% - 598px/2) !important;
+        top: calc(50% - 52px/2 - 16.5px) !important;
+        font-family: 'Knockout' !important;
+        font-style: normal !important;
+        font-weight: 400 !important;
+        font-size: 32px !important;
+        line-height: 80% !important;
+        text-transform: uppercase !important;
+        font-feature-settings: 'ss02' on !important;
+        color: #000000 !important;
+        flex: none !important;
+        order: 0 !important;
+        align-self: stretch !important;
+        flex-grow: 0 !important;
+        margin-top: 30px !important;
+      }
+      #poll-v2 .description {
+        position: static !important;
+        left: 1.3% !important;
+        right: 1.3% !important;
+        top: 80% !important;
+        bottom: 0% !important;
+        font-family: 'Roboto' !important;
+        font-style: normal !important;
+        font-weight: 400 !important;
+        font-size: 14px !important;
+        line-height: 120% !important;
+        color: #000000 !important;
+        flex: none !important;
+        order: 1 !important;
+        align-self: stretch !important;
+        flex-grow: 0 !important;
+        margin-left: 16px !important;
+      }
+      .widget .container {
+          padding: 0px !important;
+      }
+      #poll-v2 hr {
+        left: 0px !important;
+        right: 0px !important;
+        top: 0px !important;
+        bottom: 0px !important;
+        border: 1px solid #DADDDE !important;
+        margin: 10px !important;
+      }
+      #question-text {
+        display: flex !important;
+        flex-direction: row !important;
+        align-items: flex-start !important;
+        padding: 0px 8px !important;
+        position: static !important;
+        width: 614px !important;
+        height: 19px !important;
+        left: 24px !important;
+        top: 182px !important;
+        flex: none !important;
+        order: 3 !important;
+        align-self: stretch !important;
+        flex-grow: 0 !important;
+        margin: 16px 0px !important;
+      }
+ .question-container .directions {
+    display: none !important;
+}
+
+ .question-container .image-wrapper {
+    vertical-align: text-top !important;
+
+}
+
+ .answer-options .answer-option-text {
+    position: absolute !important;
+    top: 5% !important;
+    left: 5% !important;
+    vertical-align: middle !important;
+    /* width: 132px; */
+    /* height: 17px; */
+    font-family: 'Roboto' !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    font-size: 14px !important;
+    /* line-height: 120%; */
+    /* display: flex; */
+    align-items: center !important;
+}
+
+ .question-type-radio label.answer-option-wrapper {
+    margin: 10px 0 !important;
+}
+
+ .submit-container {
+    float: none !important;
+    margin-bottom: 8px !important;
+}
+
+ .submit-container button {
+    margin-top: 24px !important;
+
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    padding: 12px 20px !important;
+    gap: 8px !important;
+
+    width: 327px !important;
+    height: 48px !important;
+
+    /* web--light/button */
+
+    background: rgba(25, 28, 35, 0.9) !important;
+    border-radius: 4px !important;
+
+    font-family: 'Roboto Condensed' !important;
+    font-style: normal !important;
+    font-size: 20px !important;
+    line-height: 100% !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    display: flow-root !important;
+}
+
+.question-container input[type=text] {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: flex-start !important;
+    padding: 24px !important;
+    gap: 24px !important;
+
+    width: 598px !important;
+    height: 48px !important;
+
+    /* web--light/canvas */
+
+    background: #F3F4F5 !important;
+    border-radius: 4px !important;
+
+    /* Inside auto layout */
+
+    flex: none !important;
+    order: 0 !important;
+    align-self: stretch !important;
+    flex-grow: 0 !important;
+}
+
+#survey-v2 .image-enabled .image-wrapper img {
+    position: absolute !important;
+    top: 75% !important;
+}
+.answer-options .answer-option-text {
+    margin-left: 10px !important;   
+}
+#survey-v2 .question-container .image-wrapper img {
+ margin-top: 30px !important;   
+}
+/* remove this later, just for the demo */
+
+#quiz-v2 .question-container .image-wrapper img {
+    margin-top: 30px !important;
+}
+#poll-v2 .submit-container .points {
+  display: none !important;  
+}
+#quiz-v2 .submit-container .points {
+  display: none !important;  
+}
+#poll-v2 .question-container .image-wrapper img {
+    margin-top: 10px !important;
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: flex-start !important;
+    padding: 0px !important;
+    width: 160px !important;
+    height: 160px !important;
+    max-width: 160px !important;
+    max-height: 160px !important;
+}
+#poll-v2 .question-container .image-wrapper {
+    margin-top: 10px !important;
+    width: 160px !important;
+    height: 160px !important;
+}
+#poll-v2 .answer-options .has-image {
+    width: auto !important;
+    padding: 0px !important;
+    margin-top: 10px !important;
+}
+#poll-v2 .answer-options {
+    text-align: center !important;
+    display: flex !important;
+    flex-direction: row !important;
+    flex-wrap: wrap !important;
+    width: 530px !important;
+    justify-content: right !important;
+}
+#poll-v2 .question-container .question-text {
+    margin-bottom: 0px !important;
+    margin-top: 10px !important;
+    position: static !important;
+    width: 219px !important;
+    height: 19px !important;
+    left: calc(50% - 219px/2 - 189.5px) !important;
+    top: calc(50% - 19px/2) !important;
+    font-family: 'SF Pro Display' !important;
+    font-style: normal !important;
+    font-weight: 700 !important;
+    font-size: 16px !important;
+    line-height: 120% !important;
+    color: #000000 !important;
+    flex: none !important;
+    order: 0 !important;
+    flex-grow: 0 !important;
+    margin: 0px 10px !important;
+}
+#question-text {
+    margin: 0px !important;
+    margin-left: 10px !important;   
+}
+#poll-v2 .answer-options .answer-option-text {
+  margin-left: 20px !important;   
+}
+#poll-v2
+    > div.container
+    > form
+    > fieldset
+    > div.submit-container
+    > button:hover {
+    background-color: white !important;
+    color: black !important;
+    opacity: 1 !important;
+}
+#poll-v2 .submit-container button {
+    text-transform: capitalize !important;   
+}
