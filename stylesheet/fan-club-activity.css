@@ -1,21 +1,163 @@
 @font-face {
-    font-family: 'Knockout';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 24px;
-    src: url("./Knockout-49.otf") format("opentype");  
+        font-family: 'Knockout';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        src: url("./Knockout-49.otf") format("opentype");
 }
 
 @font-face {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    src: url("./Roboto-Regular.ttf") format("truetype");
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        src: url("./Roboto-Regular.ttf") format("truetype");
 }
+
 body {
         background-color: #F3F4F5 !important;
 }
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-device-width: 320px) and (max-device-width: 768px) {
+        .widget .container {
+                padding-top: 0px !important;
+        }
+
+        #activity-list-v2 .activity {
+                background: #FFFFFF !important;
+                border-radius: 0px 0px 4px 4px !important;
+                display: block;
+        }
+
+        #activity-list-v2 .image-container {
+                position: static !important;
+                width: 100% !important;
+                height: auto !important;
+                left: calc(50% - 323px/2) !important;
+                top: 0px !important;
+                flex: none !important;
+                order: 0 !important;
+                align-self: stretch !important;
+                flex-grow: 0 !important;
+                border-radius: 0px !important;
+                background-color: inherit !important;
+        }
+
+        #activity-list-v2 .image-container img {
+                width: 100% !important;
+                height: 166px !important;
+        }
+
+        #activity-list-v2 {
+                background-color: #F3F4F5 !important;
+
+        }
+
+}
+
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1824px) {
+        .widget .container {
+                display: flex !important;
+                flex-direction: column !important;
+                align-items: flex-start !important;
+                padding: 0px !important;
+                position: static !important;
+                width: 1001px !important;
+                /*         height: 246px !important; */
+                left: 0px !important;
+                top: 91px !important;
+                flex: none !important;
+                order: 1 !important;
+                flex-grow: 0 !important;
+                margin: 40px 0px !important;
+                height: auto !important;
+        }
+
+        #activity-list-v2 ul {
+                display: flex !important;
+                flex-direction: row !important;
+                align-items: flex-start !important;
+                padding: 0px !important;
+                position: static !important;
+                width: 1001px !important;
+                left: 0px !important;
+                top: 0px !important;
+                flex: none !important;
+                order: 0 !important;
+                flex-grow: 0 !important;
+                margin: 0px 0px !important;
+                height: auto !important;
+                flex-wrap: wrap !important;
+        }
+
+        #activity-list-v2 .activity {
+                display: flex !important;
+                flex-direction: column !important;
+                padding: 0px 0px 16px !important;
+                position: static !important;
+                width: 323px !important;
+                height: auto !important;
+                left: 0px !important;
+                top: 0px !important;
+                background: #FFFFFF !important;
+                border-radius: 0px 0px 4px 4px !important;
+                flex: none !important;
+                order: 1 !important;
+                align-self: stretch !important;
+                flex-grow: 0 !important;
+                margin: 0px 0px !important;
+                border-bottom: none !important;
+                /*margin-left: 10px !important;*/
+                display: inline-grid;
+        }
+
+        #activity-list-v2 .image-container {
+                display: flex !important;
+                flex-direction: column !important;
+                align-items: flex-start !important;
+                padding: 10px !important;
+                position: static !important;
+                width: 291px !important;
+                height: 174px !important;
+                left: calc(50% - 323px/2) !important;
+                top: 0px !important;
+                flex: none !important;
+                order: 0 !important;
+                align-self: stretch !important;
+                flex-grow: 0 !important;
+                /*         margin: 8px 0px !important; */
+                border-radius: 0px !important;
+                background-color: inherit !important;
+        }
+
+        #activity-list-v2 .image-container img {
+                position: static !important;
+                width: 291px !important;
+                height: 174px !important;
+                left: 16px !important;
+                top: 16px !important;
+                flex: none !important;
+                order: 0 !important;
+                align-self: stretch !important;
+                flex-grow: 0 !important;
+        }
+
+        #activity-list-v2>div.container>ul>li:not(:last-child) {
+                margin-right: 1% !important;
+        }
+
+        #activity-list-v2>div.container>ul>li {
+                margin-top: 1% !important;
+        }
+
+        #activity-list-v2 {
+                background-color: #F3F4F5 !important;
+                overflow: hidden !important;
+                text-align: unset !important;
+        }
+}
+
 .widget .header {
         display: flex !important;
         flex-direction: column !important;
@@ -32,8 +174,9 @@ body {
         margin: 0px !important;
         background-color: #F3F4F5 !important;
         border-bottom: none !important;
-      }
-      .widget .header h1 {
+}
+
+.widget .header h1 {
         position: static !important;
         width: 1001px !important;
         height: 19px !important;
@@ -51,99 +194,12 @@ body {
         order: 0 !important;
         flex-grow: 0 !important;
         margin: 16px 0px !important;
-      }
-      .widget .container {
-        display: flex !important;
-        flex-direction: column !important;
-        align-items: flex-start !important;
-        padding: 0px !important;
-        position: static !important;
-        width: 1001px !important;
-/*         height: 246px !important; */
-        left: 0px !important;
-        top: 91px !important;
-        flex: none !important;
-        order: 1 !important;
-        flex-grow: 0 !important;
-        margin: 40px 0px !important;
-        height: auto !important;
-      }
-#activity-list-v2 {
-      background-color: #F3F4F5 !important;
-      overflow: hidden !important;
-      text-align: unset !important;
 }
-      #activity-list-v2 ul{
-        display: flex !important;
-        flex-direction: row !important;
-        align-items: flex-start !important;
-        padding: 0px !important;
-        position: static !important;
-        width: 1001px !important;
-/*         height: 246px !important; */
-        left: 0px !important;
-        top: 0px !important;
-        flex: none !important;
-        order: 0 !important;
-        flex-grow: 0 !important;
-        margin: 0px 0px !important;
-        height: auto !important;
-        flex-wrap: wrap !important;
-      }
-#activity-list-v2 .activity  {
-        display: flex !important;
-        flex-direction: column !important;
-        padding: 0px 0px 16px !important;
-        position: static !important;
-        width: 323px !important;
-        height: auto !important;
-        left: 0px !important;
-        top: 0px !important;
-        background: #FFFFFF !important;
-        border-radius: 0px 0px 4px 4px !important;
-        flex: none !important;
-        order: 1 !important;
-        align-self: stretch !important;
-        flex-grow: 0 !important;
-        margin: 0px 0px !important;
-        border-bottom: none !important;
-         /*margin-left: 10px !important;*/
-            display: inline-grid;
-      }
-      #activity-list-v2 .image-container {
-        display: flex !important;
-        flex-direction: column !important;
-        align-items: flex-start !important;
-        padding: 10px !important;
-        position: static !important;
-        width: 291px !important;
-        height: 174px !important;
-        left: calc(50% - 323px/2) !important;
-        top: 0px !important;
-        flex: none !important;
-        order: 0 !important;
-        align-self: stretch !important;
-        flex-grow: 0 !important;
-/*         margin: 8px 0px !important; */
-        border-radius: 0px !important;
-        background-color: inherit !important;
-      }
-      #activity-list-v2 .image-container img {
-        position: static !important;
-        width: 291px !important;
-        height: 174px !important;
-        left: 16px !important;
-        top: 16px !important;
-        flex: none !important;
-        order: 0 !important;
-        align-self: stretch !important;
-        flex-grow: 0 !important;
-/*         margin: 10px 0px !important; */
-      }
-      #activity-list-v2 .info-container  {
+
+#activity-list-v2 .info-container {
         display: contents !important;
-/*         display: flex !important;
-        flex-direction: column !important; */
+        /*         display: flex !important;
+flex-direction: column !important; */
         align-items: flex-start !important;
         padding: 0px !important;
         position: static !important;
@@ -155,10 +211,12 @@ body {
         order: 1 !important;
         flex-grow: 0 !important;
         margin: 0px !important;
-/*         margin-left: 20px !important; */
+        /*         margin-left: 20px !important; */
         max-width: 100% !important
-      }
-      #activity-list-v2 .activity .title, .ct-link-color {
+}
+
+#activity-list-v2 .activity .title,
+.ct-link-color {
         position: static !important;
         height: 16px !important;
         left: 0px !important;
@@ -178,8 +236,9 @@ body {
         margin: 0px !important;
         text-align: left !important;
         margin-left: 8px !important;
-      }
-      #activity-list-v2 > div.container > ul > li > div.info-container > div {
+}
+
+#activity-list-v2>div.container>ul>li>div.info-container>div {
         margin-top: 10px !important;
         width: 294px !important;
         height: 19px !important;
@@ -191,31 +250,31 @@ body {
         color: #000000 !important;
         margin-left: 15px !important;
         margin-bottom: 15px !important;
-      }
-       #activity-list-v2 > div.header.ct-header-color {
-            margin-bottom: 80px !important;
-       }
-        #activity-list-v2 > div.container > ul > li:not(:last-child) {
-            margin-right: 1% !important;
-        }
-        #activity-list-v2 > div.container > ul > li {
-            margin-top: 1% !important;
-        }
-        #activity-list-v2 .activity:hover {
-            border: 1px solid #000 !important;
-        }
-        #activity-list-v2 .point-value.completed {
-            position: absolute !important;        
-        }
-        #activity-list-v2 .point-value.completed .fa-check-circle {
-            margin-left: 16px !important;
-            margin-right: 0px !important;
-        }
-        #activity-list-v2 .points-container {
-           float: none !important;
-           text-align: left !important;
-/*            position: absolute !important;         */
-        }
+}
+
+#activity-list-v2>div.header.ct-header-color {
+        margin-bottom: 80px !important;
+}
+
+#activity-list-v2 .activity:hover {
+        border: 1px solid #000 !important;
+}
+
+#activity-list-v2 .point-value.completed {
+        position: absolute !important;
+}
+
+#activity-list-v2 .point-value.completed .fa-check-circle {
+        margin-left: 16px !important;
+        margin-right: 0px !important;
+}
+
+#activity-list-v2 .points-container {
+        float: none !important;
+        text-align: left !important;
+        /*            position: absolute !important;         */
+}
+
 #activity-list-v2 .activity .title {
-    margin-top:20px !important;   
+        margin-top: 20px !important;
 }
