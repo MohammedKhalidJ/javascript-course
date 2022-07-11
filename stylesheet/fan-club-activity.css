@@ -49,9 +49,16 @@ body {
                 height: 166px !important;
         }
 
-        #activity-list-v2 {
-                background-color: #F3F4F5 !important;
-
+        #activity-list-v2>div.container>ul>li>div.info-container>div {
+                margin-top: 10px !important;
+                font-family: 'Roboto' !important;
+                font-style: normal !important;
+                font-weight: 400 !important;
+                font-size: 16px !important;
+                line-height: 120% !important;
+                color: #000000 !important;
+                margin-left: 15px !important;
+                margin-bottom: 15px !important;
         }
 
 }
@@ -151,10 +158,18 @@ body {
                 margin-top: 1% !important;
         }
 
-        #activity-list-v2 {
-                background-color: #F3F4F5 !important;
-                overflow: hidden !important;
-                text-align: unset !important;
+        #activity-list-v2>div.container>ul>li>div.info-container>div {
+                margin-top: 10px !important;
+                width: 294px !important;
+                height: 19px !important;
+                font-family: 'Roboto' !important;
+                font-style: normal !important;
+                font-weight: 400 !important;
+                font-size: 16px !important;
+                line-height: 120% !important;
+                color: #000000 !important;
+                margin-left: 15px !important;
+                margin-bottom: 15px !important;
         }
 }
 
@@ -238,19 +253,7 @@ flex-direction: column !important; */
         margin-left: 8px !important;
 }
 
-#activity-list-v2>div.container>ul>li>div.info-container>div {
-        margin-top: 10px !important;
-        width: 294px !important;
-        height: 19px !important;
-        font-family: 'Roboto' !important;
-        font-style: normal !important;
-        font-weight: 400 !important;
-        font-size: 16px !important;
-        line-height: 120% !important;
-        color: #000000 !important;
-        margin-left: 15px !important;
-        margin-bottom: 15px !important;
-}
+
 
 #activity-list-v2>div.header.ct-header-color {
         margin-bottom: 80px !important;
@@ -277,4 +280,10 @@ flex-direction: column !important; */
 
 #activity-list-v2 .activity .title {
         margin-top: 20px !important;
+}
+
+#activity-list-v2 {
+        background-color: #F3F4F5 !important;
+        overflow: hidden !important;
+        text-align: unset !important;
 }
