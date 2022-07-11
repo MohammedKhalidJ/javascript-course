@@ -19,7 +19,7 @@ body {
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 320px) and (max-width: 768px) {
+@media only screen and (max-width: 768px) {
         .widget .container {
                 padding-top: 0px !important;
         }
@@ -56,7 +56,7 @@ body {
 
 }
 
-@media only screen and (min-width: 1024px) and (max-width: 1824px) {
+@media only screen and (min-width: 768px) {
         .widget .container {
                 display: flex !important;
                 flex-direction: column !important;
