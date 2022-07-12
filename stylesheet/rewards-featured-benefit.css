@@ -3,34 +3,35 @@
     font-style: normal;
     font-weight: 400;
     font-size: 24px;
-    src: url("./Knockout-49.otf") format("opentype");  
+    src: url("./Knockout-49.otf") format("opentype");
 }
+
 @font-face {
     font-family: 'Knockout';
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
-   src: url("./Knockout-49.otf") format("opentype");  
+    src: url("./Knockout-49.otf") format("opentype");
 }
 
 body {
     background-color: #F3F4F5 !important;
 }
 
-/* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (max-width: 768px) { 
+/* Small devices (portrait tablets and large phones, 768px and up) */
+@media only screen and (max-width: 768px) {
     #reward-list-v2 .rewards .reward .content {
         margin-left: 20px !important;
-    
+
         /* nba/headline-02 */
-    
+
         font-family: 'Knockout';
         font-style: normal;
         font-weight: 400;
         font-size: 20px;
         line-height: 80%;
         /* identical to box height, or 16px */
-    
+
         text-transform: uppercase;
         font-feature-settings: 'ss02' on;
     }
@@ -53,26 +54,28 @@ body {
     #reward-list-v2 .rewards .reward {
         margin: 10px !important;
         background: white !important;
+        border-radius: 0 0 4px 4px;
+        border-bottom: 1px solid #bbb;
     }
 
 }
 
-@media only screen and (min-width: 768px) { 
+@media only screen and (min-width: 768px) {
     #reward-list-v2 .rewards .reward .content {
         width: 294px;
         height: 40px;
         margin-left: 20px !important;
         padding: 0 !important;
-    
+
         /* nba/headline-02 */
-    
+
         font-family: 'Knockout';
         font-style: normal;
         font-weight: 400;
         font-size: 20px;
         line-height: 80%;
         /* identical to box height, or 16px */
-    
+
         text-transform: uppercase;
         font-feature-settings: 'ss02' on;
     }
@@ -82,7 +85,6 @@ body {
         display: block !important;
         padding: 10px !important;
         position: static !important;
-        margin: auto !important;
         display: block !important;
         width: 291px !important;
         height: 174px !important;
@@ -97,13 +99,19 @@ body {
     #reward-list-v2 .rewards .reward {
         width: 322px !important;
         background: white !important;
+        border-radius: 0 0 4px 4px;
+        border-bottom: 1px solid #bbb;
+    }
+
+    #reward-list-v2 .rewards .reward:not(:last-child) {
+        margin-right: 1% !important;
     }
 }
 
 
 #reward-list-v2 .rewards {
-      margin-left: 0 !important;
-  }
+    margin-left: 0 !important;
+}
 
 #reward-list-v2 .rewards .reward .content .row {
     display: none !important;
@@ -112,10 +120,6 @@ body {
 #reward-list-v2 {
     background-color: #F3F4F5 !important;
     overflow: hidden !important;
-}
-
-#reward-list-v2 .rewards .reward:not(:last-child) {
-    margin-right: 1% !important;
 }
 
 #reward-list-v2 .rewards .reward:hover {
@@ -127,7 +131,7 @@ body {
     margin-right: 0 !important;
 }
 
-#reward-list-v2 .rewards .reward:hover{
+#reward-list-v2 .rewards .reward:hover {
     border: 1px solid #000 !important;
 }
 
@@ -135,7 +139,7 @@ body {
 
 .widget .header {
     background-color: #f3f4f5 !important;
-    border: 1px solid #f3f4f5 !important;   
+    border: 1px solid #f3f4f5 !important;
 }
 
 .widget .header h1,
