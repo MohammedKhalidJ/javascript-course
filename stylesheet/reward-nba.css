@@ -17,7 +17,7 @@ body {
     background-color: #F3F4F5 !important;
 }
 
-/* Small devices (portrait tablets and large phones, 600px and up) */
+/* Small devices (portrait tablets and large phones, 768px and up) */
 @media only screen and (max-width: 768px) {
     #reward-list-v2 .rewards .reward img {
         padding: 10px !important;
@@ -67,6 +67,8 @@ body {
     #reward-list-v2 .rewards .reward {
         margin: 10px !important;
         background: white !important;
+        border-radius: 0 0 4px 4px;
+        border-bottom: 1px solid #bbb;
     }
 }
 
@@ -124,6 +126,12 @@ body {
     #reward-list-v2 .rewards .reward {
         width: 32% !important;
         background: white !important;
+        border-radius: 0 0 4px 4px;
+        border-bottom: 1px solid #bbb;
+    }
+
+    #reward-list-v2 .rewards .reward:not(:last-child) {
+        margin-right: 1% !important;
     }
 }
 
@@ -164,10 +172,6 @@ body {
 #reward-list-v2 {
     background-color: #F3F4F5 !important;
     overflow: hidden !important;
-}
-
-#reward-list-v2 .rewards .reward:not(:last-child) {
-    margin-right: 1% !important;
 }
 
 #reward-list-v2 .rewards>* {
