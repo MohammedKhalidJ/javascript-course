@@ -21,11 +21,19 @@
     .widget .container {
         padding: 10px 0px 0px 0px !important;
     }
+
+    #reward-history-v2 .redemption-history td {
+        padding: 10px 15px !important;
+    }
  }
 
 @media only screen and (min-width: 768px) {
     .widget .container {
         padding-top: 10px !important;
+    }
+
+    #reward-history-v2 .redemption-history td {
+        padding: 12px 20px !important;
     }
  }
 
@@ -79,10 +87,6 @@
     line-height: 120%;
     color: #0268D6;
     text-decoration: underline;
-}
-
-#reward-history-v2 .redemption-history td {
-    padding: 12px 20px !important;
 }
 
 #reward-history-v2 .redemption-history tbody tr td:last-child {
