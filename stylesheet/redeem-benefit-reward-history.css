@@ -10,9 +10,24 @@
     display: none !important;
 }
 
-.widget .container {
-    padding-top: 10px !important;
-}
+
+
+/* Small devices (portrait tablets and large phones, 768px and up) */
+@media only screen and (max-width: 768px) {
+    #reward-history-v2 {
+        overflow: hidden !important;
+    }
+
+    .widget .container {
+        padding: 10px 0px 0px 0px !important;
+    }
+ }
+
+@media only screen and (min-width: 768px) {
+    .widget .container {
+        padding-top: 10px !important;
+    }
+ }
 
 #reward-history-v2 .redemption-history thead {
     border-bottom: none !important;
