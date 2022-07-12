@@ -6,6 +6,15 @@
     src: url("./Roboto-Regular.ttf") format("truetype");
 }
 
+/* Small devices (portrait tablets and large phones, 768px and up) */
+@media only screen and (max-width: 768px) {
+    #reward-history-v2 {
+        overflow: hidden !important;
+    }
+ }
+
+@media only screen and (min-width: 768px) { }
+
 .widget .header {
     display: none !important;
 }
