@@ -9,7 +9,7 @@ body {
         background-color: #F3F4F5 !important;
 }
 
-/* Small devices (portrait tablets and large phones, 600px and up) */
+/* Small devices (portrait tablets and large phones, 768px and up) */
 @media only screen and (max-width: 768px) {
 
     .widget .header {
@@ -84,6 +84,12 @@ body {
         height: auto !important;
         flex-wrap: wrap !important;
       }
+
+      #activity-list-v2 > div.container > ul > li {
+        margin-top: 1% !important;
+        border-radius: 0 0 4px 4px !important;
+        border-bottom: 1px solid #bbb !important;
+    }
  
  }
 
@@ -160,6 +166,10 @@ body {
         height: auto !important;
         flex-wrap: wrap !important;
       }
+
+      #activity-list-v2 > div.container > ul > li {
+        margin-top: 1% !important;
+    }
 }
 
 
@@ -269,9 +279,7 @@ body {
         #activity-list-v2 > div.container > ul > li:not(:last-child) {
             margin-right: 1% !important;
         }
-        #activity-list-v2 > div.container > ul > li {
-            margin-top: 1% !important;
-        }
+        
         #activity-list-v2 .activity:hover {
             border: 1px solid #000 !important;
         }
