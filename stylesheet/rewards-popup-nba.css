@@ -38,6 +38,157 @@
     src: url("./SF-Pro-Text-Regular.otf") format("opentype");
 }
 
+/* Small devices (portrait tablets and large phones, 768px and up) */
+@media only screen and (max-width: 768px) {
+    #redeem-v2 h2 {
+        width: 100% !important;
+        height: auto !important;
+        font-family: 'Knockout' !important;
+        font-style: normal !important;
+        font-weight: 400 !important;
+        font-size: 24px !important;
+        line-height: 80% !important;
+        text-transform: uppercase !important;
+        font-feature-settings: 'ss02' on !important;
+        color: #000000 !important;
+        position: absolute !important;
+    }
+
+    #redeem-v2 .left {
+        width: 100% !important;
+        height: auto !important;
+    }
+
+    #redeem-v2 .left img {
+        width: 100% !important;
+        height: 191px !important;
+    }
+
+    #redeem-v2 #details .description,
+    #redeem-v2 #review .email-address-info,
+    #redeem-v2 #confirmation .explain-redeem-success {
+        width: 100% !important;
+        height: auto !important;
+
+        border: none !important;
+        padding: 0 !important;
+        margin: 0 !important;
+
+        font-family: 'SF Pro Text' !important;
+        font-style: normal !important;
+        font-weight: 400 !important;
+        font-size: 16px !important;
+        line-height: 120% !important;
+    }
+
+    #redeem-v2 .right {
+        position: relative !important;
+        width: 100% !important;
+        height: auto !important;
+    }
+
+    .submit button.btn {
+        display: flex !important;
+        flex-direction: column !important;
+        align-items: center !important;
+        padding: 12px 20px !important;
+        gap: 8px !important;
+        width: 100% !important;
+        height: auto !important;
+        background: rgba(25, 28, 35, 0.9) !important;
+        border-radius: 4px !important;
+    
+        font-family: 'Roboto Condensed' !important;
+        text-transform: capitalize !important;
+        font-style: normal !important;
+        font-weight: 700 !important;
+        font-size: 20px !important;
+        line-height: 100% !important;
+    }
+
+    #redeem-v2 .form {
+        margin-top: 15px !important;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    #redeem-v2 h2 {
+        width: 351px !important;
+        height: 19px !important;
+        font-family: 'Knockout' !important;
+        font-style: normal !important;
+        font-weight: 400 !important;
+        font-size: 24px !important;
+        line-height: 80% !important;
+        text-transform: uppercase !important;
+        font-feature-settings: 'ss02' on !important;
+        color: #000000 !important;
+        position: absolute !important;
+        left: 45% !important;
+    }
+
+    #redeem-v2 .left {
+        width: 239px !important;
+        height: 133px !important;
+        top: 22% !important;
+    }
+
+    #redeem-v2 .left img {
+        width: 239px !important;
+        height: 133px !important;
+    }
+
+    #redeem-v2 #details .description,
+    #redeem-v2 #review .email-address-info,
+    #redeem-v2 #confirmation .explain-redeem-success {
+        width: 345px !important;
+        height: auto !important;
+
+        border: none !important;
+        padding: 0 !important;
+        margin: 0 !important;
+
+        font-family: 'SF Pro Text' !important;
+        font-style: normal !important;
+        font-weight: 400 !important;
+        font-size: 16px !important;
+        line-height: 120% !important;
+        margin-top: -80px !important;
+    }
+
+    #redeem-v2 .right {
+        position: relative !important;
+        width: 80% !important;
+        left: 45% !important;
+        width: 351px !important;
+        height: 133px !important;
+    }
+
+    .submit button.btn {
+        display: flex !important;
+        flex-direction: column !important;
+        align-items: center !important;
+        padding: 12px 20px !important;
+        gap: 8px !important;
+        width: 351px !important;
+        height: 48px !important;
+        background: rgba(25, 28, 35, 0.9) !important;
+        border-radius: 4px !important;
+    
+        font-family: 'Roboto Condensed' !important;
+        text-transform: capitalize !important;
+        font-style: normal !important;
+        font-weight: 700 !important;
+        font-size: 20px !important;
+        line-height: 100% !important;
+    }
+
+    #redeem-v2 .form {
+        float: right !important;
+        margin-top: 15px !important;
+    }
+}
+
 #redeem-v2 .container {
     position: relative !important;
 }
@@ -84,10 +235,7 @@ button[aria-label="Close Modal"] {
     text-align: unset !important;
 }
 
-#redeem-v2 .left img {
-    width: 239px !important;
-    height: 133px !important;
-}
+
 
 #redeem-v2 .additional-images .image-thumb {
     display: none !important;
@@ -101,90 +249,12 @@ fieldset {
     display: none !important;
 }
 
-.submit button.btn {
-    display: flex !important;
-    flex-direction: column !important;
-    align-items: center !important;
-    padding: 12px 20px !important;
-    gap: 8px !important;
-    width: 351px !important;
-    height: 48px !important;
-    background: rgba(25, 28, 35, 0.9) !important;
-    border-radius: 4px !important;
 
-    font-family: 'Roboto Condensed' !important;
-    text-transform: capitalize !important;
-    font-style: normal !important;
-    font-weight: 700 !important;
-    font-size: 20px !important;
-    line-height: 100% !important;
-}
 
 .submit button.btn:hover {
     background: white !important;
     color: black !important;
     border: 1px solid !important;
-}
-
-#redeem-v2 .form {
-    float: right !important;
-    margin-top: 15px !important;
-}
-
-#redeem-v2 .left {
-    width: 239px !important;
-    height: 133px !important;
-    top: 22% !important;
-}
-
-#redeem-v2 .right {
-    position: relative !important;
-    width: 80% !important;
-    left: 45% !important;
-    width: 351px !important;
-    height: 133px !important;
-}
-
-#redeem-v2 #details .description,
-#redeem-v2 #review .email-address-info,
-#redeem-v2 #confirmation .explain-redeem-success {
-    width: 345px !important;
-    height: auto !important;
-
-    border: none !important;
-    padding: 0 !important;
-    margin: 0 !important;
-
-    font-family: 'SF Pro Text' !important;
-    font-style: normal !important;
-    font-weight: 400 !important;
-    font-size: 16px !important;
-    line-height: 120% !important;
-    margin-top: -80px !important;
-}
-
-#redeem-v2 h2 {
-    width: 351px !important;
-    height: 19px !important;
-
-    /* nba/headline-03 */
-
-    font-family: 'Knockout' !important;
-    font-style: normal !important;
-    font-weight: 400 !important;
-    font-size: 24px !important;
-    line-height: 80% !important;
-    /* or 19px */
-
-    text-transform: uppercase !important;
-    font-feature-settings: 'ss02' on !important;
-
-    /* web--light/on-background */
-
-    color: #000000 !important;
-
-    position: absolute !important;
-    left: 45% !important;
 }
 
 #redeem-v2 #review .buttons {
@@ -221,6 +291,7 @@ fieldset {
 .buttons .btn.btn-danger:first-letter {
     text-transform: capitalize !important;
 }
+
 .buttons .btn.btn-danger {
     border-bottom-width: thin !important;
     width: 49px !important;
