@@ -81,6 +81,10 @@
         line-height: 120% !important;
     }
 
+    #redeem-v2 #details .description {
+        margin-top: 10px !important;
+    }
+
     #redeem-v2 .right {
         position: relative !important;
         width: 100% !important;
@@ -324,10 +328,6 @@
 
 #redeem-v2 .container {
     position: relative !important;
-}
-
-#redeem-v2 #details .description {
-    margin-top: 10px !important;
 }
 
 button[aria-label="Close Modal"] {
