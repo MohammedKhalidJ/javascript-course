@@ -51,7 +51,7 @@
         text-transform: uppercase !important;
         font-feature-settings: 'ss02' on !important;
         color: #000000 !important;
-        position: absolute !important;
+        padding-bottom: 0px !important;
     }
 
     #redeem-v2 .left {
@@ -61,7 +61,7 @@
 
     #redeem-v2 .left img {
         width: 100% !important;
-        height: 191px !important;
+        height: auto !important;
     }
 
     #redeem-v2 #details .description,
@@ -82,7 +82,7 @@
     }
 
     #redeem-v2 #details .description {
-        margin-top: 10px !important;
+        margin-top: 30px !important;
     }
 
     #redeem-v2 .right {
@@ -101,7 +101,7 @@
         height: auto !important;
         background: rgba(25, 28, 35, 0.9) !important;
         border-radius: 4px !important;
-    
+
         font-family: 'Roboto Condensed' !important;
         text-transform: capitalize !important;
         font-style: normal !important;
@@ -116,7 +116,7 @@
 
     .buttons .btn.btn-secondary {
         border-bottom-width: thin !important;
-    
+
         align-items: center !important;
         font-family: 'Roboto Condensed' !important;
         text-transform: capitalize !important;
@@ -176,6 +176,34 @@
         font-size: 16px !important;
         line-height: 120% !important;
         margin-top: 20px !important;
+    }
+
+    .widget .header h3 {
+        width: 100% !important;
+        height: auto !important;
+
+        /* nba/headline-05 */
+
+        font-family: 'Knockout' !important;
+        font-style: normal !important;
+        font-weight: 400 !important;
+        font-size: 32px !important;
+        line-height: 80% !important;
+        /* identical to box height, or 26px */
+
+        text-transform: uppercase !important;
+        font-feature-settings: 'ss02' on !important;
+
+        /* web--light/on-background */
+
+        color: #000000 !important;
+    }
+
+    .widget .header {
+        background-color: #FFF !important;
+        border-bottom: 1px solid #DADDDE !important;
+        padding-bottom: 11px !important;
+        position: initial !important;
     }
 }
 
@@ -242,7 +270,7 @@
         height: 48px !important;
         background: rgba(25, 28, 35, 0.9) !important;
         border-radius: 4px !important;
-    
+
         font-family: 'Roboto Condensed' !important;
         text-transform: capitalize !important;
         font-style: normal !important;
@@ -258,7 +286,7 @@
 
     .buttons .btn.btn-secondary {
         border-bottom-width: thin !important;
-    
+
         align-items: center !important;
         width: 40px !important;
         height: 20px !important;
@@ -324,6 +352,33 @@
         font-size: 16px !important;
         line-height: 120% !important;
     }
+
+    .widget .header h3 {
+        width: 598px !important;
+        height: 26px !important;
+
+        /* nba/headline-05 */
+
+        font-family: 'Knockout' !important;
+        font-style: normal !important;
+        font-weight: 400 !important;
+        font-size: 32px !important;
+        line-height: 80% !important;
+        /* identical to box height, or 26px */
+
+        text-transform: uppercase !important;
+        font-feature-settings: 'ss02' on !important;
+
+        /* web--light/on-background */
+
+        color: #000000 !important;
+    }
+
+    .widget .header {
+        background-color: #FFF !important;
+        border-bottom: 1px solid #DADDDE !important;
+        padding-bottom: 11px !important;
+    }
 }
 
 #redeem-v2 .container {
@@ -335,33 +390,6 @@ button[aria-label="Close Modal"] {
     right: 15px;
     bottom: -37px;
     color: rgba(25, 28, 35, 0.9) !important;
-}
-
-.widget .header h3 {
-    width: 598px !important;
-    height: 26px !important;
-
-    /* nba/headline-05 */
-
-    font-family: 'Knockout' !important;
-    font-style: normal !important;
-    font-weight: 400 !important;
-    font-size: 32px !important;
-    line-height: 80% !important;
-    /* identical to box height, or 26px */
-
-    text-transform: uppercase !important;
-    font-feature-settings: 'ss02' on !important;
-
-    /* web--light/on-background */
-
-    color: #000000 !important;
-}
-
-.widget .header {
-    background-color: #FFF !important;
-    border-bottom: 1px solid #DADDDE !important;
-    padding-bottom: 11px !important;
 }
 
 #redeem-v2 .left {
