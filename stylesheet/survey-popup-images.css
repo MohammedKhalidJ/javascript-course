@@ -94,6 +94,31 @@
         margin: 0px 10px !important;
         margin-left: 16px !important;
       }
+
+      .submit-container button {
+        display: flex !important;
+        flex-direction: column !important;
+        align-items: center !important;
+        padding: 12px 20px !important;
+        gap: 8px !important;
+    
+        width: 327px !important;
+        height: 48px !important;
+    
+        /* web--light/button */
+    
+        background: rgba(25, 28, 35, 0.9) !important;
+        border-radius: 4px !important;
+    
+        font-family: 'Roboto Condensed' !important;
+        font-style: normal !important;
+        font-size: 20px !important;
+        line-height: 100% !important;
+        margin-left: auto !important;
+        margin-right: auto !important;
+        display: flow-root !important;
+        text-transform: capitalize !important;
+    }
  }
 
 @media only screen and (min-width: 500px) { 
@@ -155,6 +180,33 @@
         margin: 0px 10px !important;
         margin-left: 16px !important;
       }
+
+      .submit-container button {
+        margin-top: 24px !important;
+    
+        display: flex !important;
+        flex-direction: column !important;
+        align-items: center !important;
+        padding: 12px 20px !important;
+        gap: 8px !important;
+    
+        width: 327px !important;
+        height: 48px !important;
+    
+        /* web--light/button */
+    
+        background: rgba(25, 28, 35, 0.9) !important;
+        border-radius: 4px !important;
+    
+        font-family: 'Roboto Condensed' !important;
+        font-style: normal !important;
+        font-size: 20px !important;
+        line-height: 100% !important;
+        margin-left: auto !important;
+        margin-right: auto !important;
+        display: flow-root !important;
+        text-transform: capitalize !important;
+    }
 }
 
   #poll-v2 > div.header.ct-header-color {
@@ -259,33 +311,6 @@
 
  .submit-container {
     float: none !important;
-}
-
- .submit-container button {
-    margin-top: 24px !important;
-
-    display: flex !important;
-    flex-direction: column !important;
-    align-items: center !important;
-    padding: 12px 20px !important;
-    gap: 8px !important;
-
-    width: 327px !important;
-    height: 48px !important;
-
-    /* web--light/button */
-
-    background: rgba(25, 28, 35, 0.9) !important;
-    border-radius: 4px !important;
-
-    font-family: 'Roboto Condensed' !important;
-    font-style: normal !important;
-    font-size: 20px !important;
-    line-height: 100% !important;
-    margin-left: auto !important;
-    margin-right: auto !important;
-    display: flow-root !important;
-    text-transform: capitalize !important;
 }
 
 .question-container input[type=text] {
