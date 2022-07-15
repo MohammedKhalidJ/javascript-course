@@ -40,6 +40,14 @@
 
 /* Small devices (portrait tablets and large phones, 768px and up) */
 @media only screen and (max-width: 500px) {
+    .widget .container {
+        padding: 10px 10px 10px 10px !important;
+    }
+
+    #redeem-v2 .container {
+        padding-bottom: 0px !important;
+    }
+
     #redeem-v2 h2 {
         width: 100% !important;
         height: auto !important;
