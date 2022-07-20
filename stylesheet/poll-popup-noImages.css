@@ -53,7 +53,7 @@
         order: 1 !important;
         align-self: stretch !important;
         flex-grow: 0 !important;
-        margin: 16px 0px !important;
+        margin-bottom: 16px !important;
         background-color: white !important;
         border-bottom: none !important;
     }
@@ -86,14 +86,13 @@
         padding: 0px 8px !important;
         position: static !important;
         width: 100% !important;
-        height: 19px !important;
         left: 24px !important;
         top: 182px !important;
         flex: none !important;
         order: 3 !important;
         align-self: stretch !important;
         flex-grow: 0 !important;
-        margin: 16px 0px !important;
+        margin: 0px !important;
     }
 
     #poll-v2 .answer-options {
@@ -110,7 +109,6 @@
         margin-top: 10px !important;
         position: static !important;
         width: 90% !important;
-        height: 19px !important;
         left: calc(50% - 219px/2 - 189.5px) !important;
         top: calc(50% - 19px/2) !important;
         font-family: 'SF Pro Display' !important;
@@ -144,12 +142,7 @@
         height: 160px !important;
     }
 
-    .answer-options .answer-option-text {
-        position: absolute !important;
-        top: 5% !important;
-        left: 0% !important;
-        vertical-align: middle !important;
-        width: 100% !important;
+    #poll-v2 .answer-options .answer-option-text {
         font-family: 'Roboto' !important;
         font-style: normal !important;
         font-weight: 400 !important;
@@ -157,26 +150,26 @@
         align-items: center !important;
     }   
 
-    #poll-v2 .answer-options input[type=radio] {
-        margin-right: 115px !important;
+    .question-type-radio label.answer-option-wrapper {
+        margin: 10px 13px !important;
     }
 }
 
 @media only screen and (min-width: 500px) {
     .widget .header {
-        display: flex !important;
+        /* display: flex !important;
         flex-direction: column !important;
         align-items: flex-start !important;
-        padding: 0px 8px !important;
+        padding: 0px 8px !important; */
         position: static !important;
-        width: 614px !important;
+        /* width: 100% !important;
         left: 24px !important;
         top: 64px !important;
         flex: none !important;
         order: 1 !important;
         align-self: stretch !important;
-        flex-grow: 0 !important;
-        margin: 16px 0px !important;
+        flex-grow: 0 !important; */
+        margin-bottom: 16px !important;
         background-color: white !important;
         border-bottom: none !important;
     }
@@ -283,14 +276,20 @@
         margin-left: 20px !important;
     }
 
+    #question-text {
+        margin: 0px !important;
+        margin-left: 10px !important;
+    }
+
+    .question-type-radio label.answer-option-wrapper {
+        margin: 10px 0 !important;
+    }
 }
 
 
 #poll-v2>div.header.ct-header-color {
     padding-bottom: 0px !important;
 }
-
-
 
 #poll-v2 .description {
     position: static !important;
@@ -333,15 +332,9 @@
 
 }
 
-
-
-.question-type-radio label.answer-option-wrapper {
-    margin: 10px 0 !important;
-}
-
 .submit-container {
     float: none !important;
-    margin-bottom: 8px !important;
+    margin-bottom: 25px !important;
 }
 
 .submit-container button {
@@ -416,10 +409,7 @@
     display: none !important;
 }
 
-#question-text {
-    margin: 0px !important;
-    margin-left: 10px !important;
-}
+
 
 
 
