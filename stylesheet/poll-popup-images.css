@@ -458,6 +458,7 @@
   }
   #poll-v2 .success-container .ct-chart {
     border: none !important;
+    padding-bottom: 30px !important;
   }
   #poll-v2 > div.container > div > p.success-message.ng-binding {
     display: none !important;
