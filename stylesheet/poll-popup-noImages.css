@@ -405,14 +405,6 @@
     display: none !important;
 }
 
-#quiz-v2 .submit-container .points {
-    display: none !important;
-}
-
-
-
-
-
 #poll-v2>div.container>form>fieldset>div.submit-container>button:hover {
     background-color: white !important;
     color: black !important;
@@ -421,4 +413,45 @@
 
 #poll-v2 .submit-container button {
     text-transform: capitalize !important;
+}
+
+.ct-series .ct-bar {
+    stroke: #1D428A !important;
+  }
+  .ct-chart-bar.ct-horizontal-bars .ct-label.ct-vertical.ct-start {
+    font-family: 'Roboto' !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    font-size: 14px !important;
+    line-height: 120% !important;
+    color: #000 !important;
+  }
+  .ct-chart-bar.ct-horizontal-bars .ct-label.ct-horizontal.ct-end {
+    font-family: 'Roboto' !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    font-size: 12px !important;
+    line-height: 120% !important;
+    color: #4E5356 !important;
+  }
+  #poll-v2 .success-container .ct-chart {
+    border: none !important;
+  }
+  #poll-v2 > div.container > div > p.success-message.ng-binding {
+    display: none !important;
+  }
+  #poll-v2 > div.container > div > p.success-message.ng-scope {
+    margin-top: 20px !important;
+    margin-left: 16px !important;
+  }
+
+  #poll-v2 .success-message {
+    font-family: 'SF Pro Display' !important;
+    font-style: normal !important;
+    font-weight: 700 !important;
+    font-size: 16px !important;
+    line-height: 120% !important;
+}
+#poll-v2 .success-message > span {
+    font-size: 16px !important;
 }
