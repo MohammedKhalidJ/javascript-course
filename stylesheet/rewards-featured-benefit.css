@@ -97,7 +97,7 @@ body {
     }
 
     #reward-list-v2 .rewards .reward {
-        width: 322px !important;
+        width: auto !important;
         background: white !important;
         border-radius: 0 0 4px 4px;
         border-bottom: 1px solid #bbb;
