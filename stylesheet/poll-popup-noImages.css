@@ -415,6 +415,10 @@
     text-transform: capitalize !important;
 }
 
+#poll-v2 .submit-container button::after {
+    content: "Submit";
+}
+
 .ct-series .ct-bar {
     stroke: #1D428A !important;
   }
