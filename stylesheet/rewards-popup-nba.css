@@ -389,6 +389,19 @@
     }
 }
 
+.email-address-info::before {
+    content: 'Click Collect for details : ';
+    font-size: 13px;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    font-size: 13px !important;
+    line-height: 120% !important;
+}
+
+span#email-address-label {
+    display: none;
+}
+
 #redeem-v2 .container {
     position: relative !important;
 }
