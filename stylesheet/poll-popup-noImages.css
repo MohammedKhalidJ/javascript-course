@@ -96,8 +96,8 @@
     }
 
     #poll-v2 .answer-options {
-        text-align: center !important;
-        display: flex !important;
+        /* text-align: center !important;
+        display: flex !important; */
         flex-direction: row !important;
         flex-wrap: wrap !important;
         width: 100% !important;
