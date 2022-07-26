@@ -223,8 +223,8 @@
     }
     #quiz-v2 .question-container .question-text {
       position: static !important;
-      width: 100% !important;
-      height: 19px !important;
+      width: auto !important;
+      /* height: 19px !important; */
       left: calc(50% - 219px / 2 - 189.5px) !important;
       top: calc(50% - 19px / 2) !important;
       font-family: "SF Pro Display" !important;
