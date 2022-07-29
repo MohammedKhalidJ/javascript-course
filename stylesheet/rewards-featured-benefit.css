@@ -63,7 +63,7 @@ body {
 @media only screen and (min-width: 768px) {
     #reward-list-v2 .rewards .reward .content {
         width: 294px;
-        height: 40px;
+        height: auto;
         margin-left: 20px !important;
         padding: 0 !important;
 
@@ -108,6 +108,9 @@ body {
     }
 }
 
+.widget .container {
+    padding-left: 0px !important;
+}
 
 #reward-list-v2 .rewards {
     margin-left: 0 !important;
@@ -140,6 +143,7 @@ body {
 .widget .header {
     background-color: #f3f4f5 !important;
     border: 1px solid #f3f4f5 !important;
+    padding: 0px !important;
 }
 
 .widget .header h1,
@@ -154,6 +158,8 @@ body {
     text-transform: uppercase !important;
     font-feature-settings: 'ss02' on !important;
     color: #000000 !important;
+    margin-left: 0px !important;
+    padding: 0px !important;
 }
 
 #redeem-v2 h2 {
