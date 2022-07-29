@@ -18,7 +18,7 @@ body {
         background-color: #F3F4F5 !important;
 }
 
-/* Small devices (portrait tablets and large phones, 600px and up) */
+/* Small devices (portrait tablets and large phones, 768px and up) */
 @media only screen and (max-width: 768px) {
         .widget .container {
                 padding-top: 0px !important;
@@ -114,7 +114,7 @@ body {
                 align-self: stretch !important;
                 flex-grow: 0 !important;
                 margin: 0px 0px !important;
-                border-bottom: none !important;
+                /* border-bottom: none !important; */
                 /*margin-left: 10px !important;*/
                 display: inline-grid;
         }
