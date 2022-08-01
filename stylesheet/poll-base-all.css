@@ -16,6 +16,10 @@ body {
 
 /* Small devices (portrait tablets and large phones, 768px and up) */
 @media only screen and (max-width: 768px) {
+    #activity-list-v2 .points-container {
+        margin-left: 0px !important;
+    }
+
     #activity-list-v2 ul {
         position: static !important;
         width: 100% !important;
@@ -149,7 +153,7 @@ body {
 #activity-list-v2 .activity .title,
 .ct-link-color {
     position: static !important;
-    height: 16px !important;
+    height: auto !important;
     left: 0px !important;
     top: 0px !important;
     font-family: 'Knockout' !important;
@@ -198,6 +202,7 @@ body {
 #activity-list-v2 .points-container {
     float: none !important;
     text-align: left !important;
+    margin-top: 2px !important;
     /*            position: absolute !important;         */
 }
 
@@ -214,5 +219,5 @@ body {
 }
 
 #activity-list-v2>div.container>ul>li {
-    padding-bottom: 0px !important;
+    padding-bottom: 5px !important;
 }
