@@ -43,11 +43,7 @@
     .widget .container {
         padding: 10px 10px 10px 10px !important;
     }
-
-    #redeem-v2 .container {
-        padding-bottom: 0px !important;
-    }
-
+    
     #redeem-v2 h2 {
         width: 100% !important;
         height: auto !important;
@@ -216,6 +212,9 @@
 }
 
 @media only screen and (min-width: 500px) {
+    .widget .container {
+        padding: 60px 10px 50px 10px;
+    }
     #redeem-v2 h2 {
         width: 351px !important;
         height: 19px !important;
@@ -480,4 +479,9 @@ form fieldset:first-child {
     background: white !important;
     color: black !important;
     border: 1px solid !important;
+}
+
+#redeem-v2 #review .phone-info {
+    padding: 0px !important;
+    border-bottom: 0px !important;
 }
