@@ -388,6 +388,10 @@
     }
 }
 
+.sold-out p {
+    color: red !important;
+}
+
 /* .email-address-info::before {
     content: 'Click Collect for details : ';
     font-size: 13px;
