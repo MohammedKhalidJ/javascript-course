@@ -173,14 +173,11 @@
         background: black !important;
     }
 
-    .sold-out p {
-        font-family: 'SF Pro Text' !important;
-        font-style: normal !important;
-        font-weight: 700 !important;
-        font-size: 16px !important;
-        line-height: 120% !important;
+    .sold-out p, .underage-explanation p {
         margin-top: 20px !important;
     }
+
+
 
     .widget .header h3 {
         width: 100% !important;
@@ -353,11 +350,6 @@
     .sold-out p {
         position: absolute !important;
         bottom: 0% !important;
-        font-family: 'SF Pro Text' !important;
-        font-style: normal !important;
-        font-weight: 700 !important;
-        font-size: 16px !important;
-        line-height: 120% !important;
     }
 
     .widget .header h3 {
@@ -388,8 +380,13 @@
     }
 }
 
-.sold-out p {
+.sold-out p, .underage-explanation p {
     color: red !important;
+    font-family: 'SF Pro Text' !important;
+        font-style: normal !important;
+        font-weight: 700 !important;
+        font-size: 16px !important;
+        line-height: 120% !important;
 }
 
 /* .email-address-info::before {
