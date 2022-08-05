@@ -347,7 +347,7 @@
         background: black !important;
     }
 
-    .sold-out p {
+    .sold-out p, .underage-explanation p {
         position: absolute !important;
         bottom: 0% !important;
     }
