@@ -61,6 +61,11 @@ body {
 }
 
 @media only screen and (min-width: 768px) {
+    #reward-list-v2 .rewards {
+        display: flex !important;
+        flex-wrap: wrap !important;
+    }
+
     #reward-list-v2 .rewards .reward .content {
         width: 294px;
         height: auto;
@@ -101,6 +106,7 @@ body {
         background: white !important;
         border-radius: 0 0 4px 4px;
         border-bottom: 1px solid #bbb;
+        margin-top: 1% !important;
     }
 
     #reward-list-v2 .rewards .reward:not(:last-child) {
