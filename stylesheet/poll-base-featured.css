@@ -283,7 +283,7 @@ body {
         }
         
         #activity-list-v2 .activity:hover {
-            border: 1px solid #000 !important;
+          box-shadow: 0 0 0 1px #000 !important;
         }
         #activity-list-v2 .point-value.completed {
             position: absolute !important;        
