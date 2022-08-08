@@ -487,3 +487,8 @@ form fieldset:first-child {
     padding: 0px !important;
     border-bottom: 0px !important;
 }
+
+#redeem-v2 #review fieldset.form input[type=text] {
+    background: #FFF !important;
+    border: 1px solid #000000 !important;
+}
