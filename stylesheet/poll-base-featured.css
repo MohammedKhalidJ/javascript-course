@@ -55,7 +55,7 @@ body {
         display: flex !important;
         flex-direction: column !important;
         align-items: flex-start !important;
-        padding: 0px !important;
+        padding: 0px 0px 1px 1px !important;
         position: static !important;
         width: 100% !important;
 /*         height: 246px !important; */
@@ -138,7 +138,7 @@ body {
         display: flex !important;
         flex-direction: column !important;
         align-items: flex-start !important;
-        padding: 0px !important;
+        padding: 0px 0px 1px 1px !important;
         position: static !important;
         width: 1001px !important;
 /*         height: 246px !important; */
