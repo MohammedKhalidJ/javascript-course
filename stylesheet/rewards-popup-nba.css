@@ -359,10 +359,14 @@
         background: black !important;
     }
 
-    .sold-out p, .underage-explanation p, .exceeded-limit-container p {
+    .sold-out p, .underage-explanation p {
         position: absolute !important;
         bottom: 0% !important;
         width: 345px !important;
+    }
+
+    .exceeded-limit-container p {
+        margin-top: 4% !important;
     }
 
     .widget .header h3 {
