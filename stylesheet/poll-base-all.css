@@ -38,6 +38,10 @@ body {
         border-radius: 0 0 4px 4px !important;
         border-bottom: 1px solid #bbb !important;
     }
+
+    .widget .container {
+        padding-top: 0% !important;
+    }
 }
 
 @media only screen and (min-width: 768px) {
@@ -62,14 +66,14 @@ body {
     #activity-list-v2>div.container>ul>li {
         margin-top: 1% !important;
     }
+
+    .widget .container {
+        padding: 0px 0px 1px 1px !important;
+    }
 }
 
 .widget .header {
     display: none !important;
-}
-
-.widget .container {
-    padding: 0px 0px 1px 1px !important;
 }
 
 #activity-list-v2 {
