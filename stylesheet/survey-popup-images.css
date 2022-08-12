@@ -119,6 +119,10 @@
         display: flow-root !important;
         text-transform: capitalize !important;
     }
+
+    .widget .container {
+        padding: 0px 0px 10px 0px !important;
+      }
  }
 
 @media only screen and (min-width: 500px) { 
@@ -205,16 +209,15 @@
         display: flow-root !important;
         text-transform: capitalize !important;
     }
+
+    .widget .container {
+        padding: 0px 10px 10px 0px !important;
+      }
 }
 
 #survey-v3 .submit-container .points {
     display: none !important;
 }
-
-  #poll-v2 > div.header.ct-header-color {
-    padding-bottom: 0px !important;
-  }
-
  #survey-v3 hr {
     left: 0px !important;
     right: 0px !important;
@@ -242,9 +245,7 @@
     flex-grow: 0 !important;
     margin-left: 16px !important;
   }
-  .widget .container {
-    padding: 0px !important;
-  }
+
 
  #question-text {
     display: flex !important;
