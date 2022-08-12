@@ -236,7 +236,7 @@
 
     #redeem-v2 .left {
         width: 239px !important;
-        height: 133px !important;
+        height: auto !important;
         top: 22% !important;
     }
 
@@ -268,7 +268,7 @@
         width: 80% !important;
         left: 45% !important;
         width: 351px !important;
-        height: 133px !important;
+        height: auto !important;
     }
 
     .submit button.btn {
