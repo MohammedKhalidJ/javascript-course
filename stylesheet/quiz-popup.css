@@ -43,14 +43,14 @@
     padding: 0px 8px !important;
     position: static !important;
     width: 100% !important;
-    height: 85px !important;
+    height: auto !important;
     left: 24px !important;
     top: 64px !important;
     flex: none !important;
     order: 1 !important;
     align-self: stretch !important;
     flex-grow: 0 !important;
-    margin: 16px 0px !important;
+    margin: 8px 0px !important;
     background-color: white !important;
     border-bottom: none !important;
   }
@@ -73,7 +73,6 @@
     order: 0 !important;
     align-self: stretch !important;
     flex-grow: 0 !important;
-    margin-top: 30px !important;
   }
 
   #quiz-v2 > div.container > p[ng-if='completed'] {
@@ -89,6 +88,10 @@
     align-self: stretch !important;
     flex-grow: 0 !important;
   }
+
+  .widget .container {
+    padding: 0px 0px 10px 0px !important;
+  }
 }
 
 @media only screen and (min-width: 500px) { 
@@ -99,14 +102,14 @@
     padding: 0px 8px !important;
     position: static !important;
     width: 614px !important;
-    height: 85px !important;
+    height: auto !important;
     left: 24px !important;
     top: 64px !important;
     flex: none !important;
     order: 1 !important;
     align-self: stretch !important;
     flex-grow: 0 !important;
-    margin: 16px 0px !important;
+    margin: 8px 0px !important;
     background-color: white !important;
     border-bottom: none !important;
   }
@@ -129,7 +132,6 @@
     order: 0 !important;
     align-self: stretch !important;
     flex-grow: 0 !important;
-    margin-top: 30px !important;
   }
 
   #quiz-v2 > div.container > p[ng-if='completed'] {
@@ -146,7 +148,12 @@
     align-self: stretch !important;
     flex-grow: 0 !important;
   }
+
+  .widget .container {
+    padding: 0px 10px 10px 0px !important;
+  }
 }
+
 #ct-modal {
       display: flex !important;
       flex-direction: column !important;
@@ -194,9 +201,7 @@
       flex-grow: 0 !important;
       margin-left: 16px !important;
     }
-    .widget .container {
-      padding: 0px !important;
-    }
+
     #quiz-v2 hr {
       left: 0px !important;
       right: 0px !important;
