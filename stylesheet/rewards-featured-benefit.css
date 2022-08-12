@@ -20,6 +20,9 @@ body {
 
 /* Small devices (portrait tablets and large phones, 768px and up) */
 @media only screen and (max-width: 768px) {
+    .widget .header { 
+        left: 10px !important;
+    }
     #reward-list-v2 .rewards .reward .content {
         margin-left: 20px !important;
 
