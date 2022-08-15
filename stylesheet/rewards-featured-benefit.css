@@ -58,7 +58,6 @@ body {
         margin: 10px !important;
         background: white !important;
         border-radius: 0 0 4px 4px;
-        border-bottom: 1px solid #bbb;
     }
 
 }
@@ -108,7 +107,6 @@ body {
         width: auto !important;
         background: white !important;
         border-radius: 0 0 4px 4px;
-        border-bottom: 1px solid #bbb;
         margin-top: 1% !important;
     }
 
