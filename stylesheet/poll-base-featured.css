@@ -320,7 +320,7 @@ body {
         display: none;
       }
        #activity-list-v2 > div.header.ct-header-color {
-            margin-bottom: 80px !important;
+            margin-bottom: 58px !important;
        }
         #activity-list-v2 > div.container > ul > li:not(:last-child) {
             margin-right: 1% !important;
