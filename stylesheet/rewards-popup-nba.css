@@ -405,14 +405,14 @@
         line-height: 120% !important;
 }
 
-/* .email-address-info::before {
-    content: 'Click Collect for details : ';
+.email-address-info::before {
+    content: 'This email is eligible : ';
     font-size: 13px;
     font-style: normal !important;
     font-weight: 400 !important;
     font-size: 13px !important;
     line-height: 120% !important;
-} */
+}
 
 span#email-address-label {
     display: none;
@@ -515,4 +515,9 @@ input#mobile-phone {
 
 input#mobile-phone:focus-visible {
     outline: none !important;
+}
+
+#redeem-v2 #confirmation .explain-redeem-success span::nth-child(2),
+#redeem-v2 #confirmation .explain-redeem-success span::nth-child(3) {
+    display: none !important;
 }
