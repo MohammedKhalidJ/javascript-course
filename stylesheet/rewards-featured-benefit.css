@@ -117,6 +117,7 @@ body {
 
 .widget .container {
     padding-left: 0px !important;
+    padding-top: 32px !important;
 }
 
 #reward-list-v2 .rewards {
