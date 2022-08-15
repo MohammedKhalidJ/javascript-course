@@ -125,6 +125,10 @@
  }
 
 @media only screen and (min-width: 500px) { 
+    #survey-v3 {
+        overflow: hidden !important;
+    }
+
     .widget .header h1, h3 {
         position: static !important;
         width: 598px !important;
