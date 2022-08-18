@@ -15,7 +15,7 @@
 /* Small devices (portrait tablets and large phones, 768px and up) */
 @media only screen and (max-width: 768px) {
     #reward-history-v2 {
-        overflow: hidden !important;
+        overflow-y: hidden !important;
     }
 
     .widget .container {
