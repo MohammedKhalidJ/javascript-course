@@ -118,7 +118,7 @@ body {
     }
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 1024px) {
     #activity-list-v2 ul {
         display: flex !important;
         flex-direction: row !important;
