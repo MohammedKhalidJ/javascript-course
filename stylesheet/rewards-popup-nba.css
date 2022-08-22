@@ -521,4 +521,6 @@ input#mobile-phone:focus-visible {
     display: none !important;
 } */
 
-/* #redeem-v2 #confirmation .explain-redeem-success span:nth-child(3) */
+#redeem-v2 #confirmation .explain-redeem-success span:nth-child(3) {
+    display: inline-block !important;
+}
