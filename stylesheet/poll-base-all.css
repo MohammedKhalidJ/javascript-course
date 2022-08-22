@@ -98,7 +98,7 @@ body {
 }
 
 /* ipad */
-@media only screen and (min-width: 769px) and (max-width: 1024px) { 
+@media only screen and (min-width: 769px) and (max-width: 1000px) { 
     #activity-list-v2 ul {
         display: flex !important;
         flex-direction: row !important;
@@ -118,7 +118,7 @@ body {
     }
 }
 
-@media only screen and (min-width: 1024px) {
+@media only screen and (min-width: 1000px) {
     #activity-list-v2 ul {
         display: flex !important;
         flex-direction: row !important;
