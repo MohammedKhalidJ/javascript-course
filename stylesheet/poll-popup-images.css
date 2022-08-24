@@ -39,7 +39,7 @@
 }
 
 /* Small devices (portrait tablets and large phones, 768px and up) */
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 500px) {
     .widget .header {
         display: flex !important;
         flex-direction: column !important;
@@ -163,7 +163,7 @@
     }
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 500px) {
     .widget .header {
         display: flex !important;
         flex-direction: column !important;
