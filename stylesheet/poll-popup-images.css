@@ -39,7 +39,7 @@
 }
 
 /* Small devices (portrait tablets and large phones, 768px and up) */
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 768px) {
     .widget .header {
         display: flex !important;
         flex-direction: column !important;
@@ -85,7 +85,7 @@
         padding: 0px 8px !important;
         position: static !important;
         width: 100% !important;
-        height: 19px !important;
+        height: 35px !important;
         left: 24px !important;
         top: 182px !important;
         flex: none !important;
@@ -98,7 +98,7 @@
     #poll-v2 .answer-options {
         text-align: center !important;
         display: flex !important;
-        flex-direction: row !important;
+        flex-direction: column !important;
         flex-wrap: wrap !important;
         width: 100% !important;
         justify-content: center !important;
@@ -127,6 +127,7 @@
     #poll-v2 .answer-options .has-image {
         padding: 0px !important;
         margin-top: 10px !important;
+        width: 100% !important;
     }
 
     #poll-v2 .question-container .image-wrapper {
@@ -141,14 +142,15 @@
         align-items: flex-start !important;
         padding: 0px !important;
         height: 160px !important;
+        margin-top: 10px !important;
     }
 
     .answer-options .answer-option-text {
         position: absolute !important;
-        top: 5% !important;
-        left: 0% !important;
+        top: 4.5% !important;
+        left: 30% !important;
         vertical-align: middle !important;
-        width: 100% !important;
+        width: 40% !important;
         font-family: 'Roboto' !important;
         font-style: normal !important;
         font-weight: 400 !important;
@@ -161,7 +163,7 @@
     }
 }
 
-@media only screen and (min-width: 500px) {
+@media only screen and (min-width: 768px) {
     .widget .header {
         display: flex !important;
         flex-direction: column !important;
