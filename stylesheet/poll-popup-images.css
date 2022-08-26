@@ -236,7 +236,7 @@
     position: static !important;
     /* width: 219px !important; */
     height: 100% !important;
-    width: 100% !important;
+    width: 95% !important;
     left: calc(50% - 219px / 2 - 189.5px) !important;
     top: calc(50% - 19px / 2) !important;
     font-family: "SF Pro Display" !important;
