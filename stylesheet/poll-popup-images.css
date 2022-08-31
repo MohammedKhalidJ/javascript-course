@@ -120,7 +120,6 @@
     flex: none !important;
     order: 0 !important;
     flex-grow: 0 !important;
-    margin: 0px 10px !important;
   }
 
   #poll-v2 .answer-options .has-image {
@@ -222,11 +221,15 @@
   }
 
   #poll-v2 .answer-options {
-    text-align: center !important;
     display: flex !important;
     flex-direction: row !important;
     flex-wrap: wrap !important;
     width: 530px !important;
+    justify-content: left !important;
+  }
+
+  .answer-container span {
+    display: flex !important;
     justify-content: right !important;
   }
 
@@ -248,7 +251,6 @@
     flex: none !important;
     order: 0 !important;
     flex-grow: 0 !important;
-    margin: 0px 10px !important;
   }
 
   #poll-v2 .answer-options .has-image {
