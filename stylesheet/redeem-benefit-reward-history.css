@@ -25,7 +25,7 @@
   }
 
   #reward-history-v2 .redemption-history td p.points {
-    display: nont !important;
+    display: none !important;
   }
 }
 
