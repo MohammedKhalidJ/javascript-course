@@ -1,103 +1,104 @@
 @font-face {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    src: url("./Roboto-Regular.ttf") format("truetype");
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  src: url("./Roboto-Regular.ttf") format("truetype");
 }
 
 /* Small devices (portrait tablets and large phones, 768px and up) */
 @media only screen and (max-width: 768px) {
-    #reward-history-v2 {
-        overflow: hidden !important;
-    }
+  #reward-history-v2 {
+    overflow: hidden !important;
+  }
 
-    .widget .container {
-        padding: 10px 0px 0px 0px !important;
-    }
+  .widget .container {
+    padding: 10px 0px 0px 0px !important;
+  }
 
-    #reward-history-v2 .redemption-history td {
-        padding: 10px 15px !important;
-    }
- }
+  #reward-history-v2 .redemption-history td {
+    padding: 10px 15px !important;
+  }
 
-@media only screen and (min-width: 768px) {
-    .widget .container {
-        padding-top: 10px !important;
-    }
-
-    #reward-history-v2 .redemption-history td {
-        padding: 12px 20px !important;
-    }
- }
-
-.widget .header {
-    display: none !important;
+  #reward-history-v2 .redemption-history td p.points {
+    display: nont !important;
+  }
 }
 
+@media only screen and (min-width: 768px) {
+  .widget .container {
+    padding-top: 10px !important;
+  }
 
+  #reward-history-v2 .redemption-history td {
+    padding: 12px 20px !important;
+  }
+}
+
+.widget .header {
+  display: none !important;
+}
 
 #reward-history-v2 .redemption-history thead {
-    border-bottom: none !important;
+  border-bottom: none !important;
 }
 
 #reward-history-v2 .redemption-history thead tr th {
-    width: 210px;
-    height: 17px;
+  width: 210px;
+  height: 17px;
 
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 14px;
-    line-height: 120%;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 120%;
 
-    color: #000000;
-    border-bottom: 1px solid #F3F4F5 !important;
-    padding-bottom: 20px !important;
+  color: #000000;
+  border-bottom: 1px solid #f3f4f5 !important;
+  padding-bottom: 20px !important;
 }
 
 #reward-history-v2 .redemption-history thead tr td {
-    width: 210px;
-    height: 17px;
+  width: 210px;
+  height: 17px;
 
-    /* nba/body-00 */
+  /* nba/body-00 */
 
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 120%;
-    /* identical to box height, or 17px */
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 120%;
+  /* identical to box height, or 17px */
 
+  /* mobile--light/text--primary */
 
-    /* mobile--light/text--primary */
-
-    color: #000000;
-
+  color: #000000;
 }
 
 #reward-history-v2 .redemption-history tbody tr td:last-child {
-    display: none !important;
+  display: none !important;
 }
 
 #reward-history-v2 .redemption-history tbody tr {
-    border-bottom: 1px solid #F3F4F5 !important;
+  border-bottom: 1px solid #f3f4f5 !important;
 }
 
 #reward-history-v2 .redemption-history thead tr th:last-child {
-    display: none !important;
+  display: none !important;
 }
 
-#reward-history-v2 .redemption-history tbody tr td div span a, #reward-history-v2 .redemption-history tbody tr td a {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 120%;
-    color: #0268D6;
-    text-decoration: underline;
+#reward-history-v2 .redemption-history tbody tr td div span a,
+#reward-history-v2 .redemption-history tbody tr td a {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 120%;
+  color: #0268d6;
+  text-decoration: underline;
 }
 
-#reward-history-v2 .redemption-history th:first-child { 
-    padding: 4px 20px !important;
+#reward-history-v2 .redemption-history th:first-child {
+  padding: 4px 20px !important;
 }
