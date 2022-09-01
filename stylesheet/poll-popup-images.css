@@ -40,6 +40,10 @@
 
 /* Small devices (portrait tablets and large phones, 768px and up) */
 @media only screen and (max-width: 500px) {
+  div#poll-v2 {
+    overflow: hidden !important;
+  }
+
   .widget .header {
     display: flex !important;
     flex-direction: column !important;
